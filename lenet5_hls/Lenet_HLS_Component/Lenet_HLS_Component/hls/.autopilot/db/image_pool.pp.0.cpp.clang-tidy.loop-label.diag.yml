@@ -1,0 +1,76 @@
+---
+MainSourceFile:  /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_17_1:  '
+    FileOffset:      17
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          230455
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_17_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_19_2:  '
+    FileOffset:      19
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          230508
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_19_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_3:  '
+    FileOffset:      21
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          230551
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_23_4:  '
+    FileOffset:      23
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          230591
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_23_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          231366
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_50_2:  '
+    FileOffset:      50
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          231419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_50_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_52_3:  '
+    FileOffset:      52
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          231463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_52_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_54_4:  '
+    FileOffset:      54
+    FilePath:        /primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp
+    Replacements:    
+      - FilePath:        /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp
+        Offset:          231502
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_54_4: '
+...

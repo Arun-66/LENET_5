@@ -1,0 +1,418 @@
+INFO: [HLS 200-2005] Using work_dir /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' see [hls] from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+WARNING: [HLS 200-40] Cannot find design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h'
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/common.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/common.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Lenet.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=lenet5.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/lenet5.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=lenet5' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu7ev-ffvc1156-2-e' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu7ev-ffvc1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(5)
+WARNING: [HLS 200-40] Cannot find source file ../lenet5/hw_layers/image_pool.h; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 5.05 seconds. CPU system time: 0.53 seconds. Elapsed time: 5.29 seconds; current allocated memory: 326.809 MB.
+INFO: [HLS 200-10] Analyzing design file 'Lenet.cpp' ... 
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:10:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:11:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:12:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:18:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:19:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:20:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:27:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:28:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:29:9)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/image_pool.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/image_convolution.cpp' ... 
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:10:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:11:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:12:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:18:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:19:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:20:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:27:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:28:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:29:9)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/activation.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9.93 seconds. CPU system time: 3.08 seconds. Elapsed time: 13.03 seconds; current allocated memory: 329.559 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 29,868 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3,369 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,487 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,333 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 812 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,817 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 987 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,547 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,353 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,446 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,031 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-291] Loop 'D_IN' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:305:6)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_309_5' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:309:24)
+INFO: [HLS 214-291] Loop 'DEPTH_IN' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:201:8)
+INFO: [HLS 214-291] Loop 'D_OUT' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:85:7)
+INFO: [HLS 214-186] Unrolling loop 'D_IN' (../lenet5/hw_layers/image_convolution.cpp:305:6) in function 'CONVOLUTION_LAYER_3' completely with a factor of 16 (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_309_5' (../lenet5/hw_layers/image_convolution.cpp:309:24) in function 'CONVOLUTION_LAYER_3' completely with a factor of 4 (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-188] Unrolling loop 'DEPTH_OUT' (../lenet5/hw_layers/image_convolution.cpp:192:7) in function 'CONVOLUTION_LAYER_2' partially with a factor of 2 (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-186] Unrolling loop 'DEPTH_IN' (../lenet5/hw_layers/image_convolution.cpp:201:8) in function 'CONVOLUTION_LAYER_2' completely with a factor of 6 (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-186] Unrolling loop 'D_OUT' (../lenet5/hw_layers/image_convolution.cpp:85:7) in function 'CONVOLUTION_LAYER_1' completely with a factor of 6 (../lenet5/hw_layers/image_convolution.cpp:23:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:23:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::data() const (.35.45.54.65)' into 'fp_struct<float>::to_float() const (.32.42.51.62)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:322:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_float() const (.32.42.51.62)' into 'fp_struct<float>::to_ieee() const' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:346:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float generic_copysign<float>(float, float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float generic_copysign<float>(float, float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'float generic_copysign<float>(float, float)' into 'float generic_fabs<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float generic_nan<float>(char const*)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isnan<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isinf<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const (.96.106.116.134)' into 'fp_struct<double>::to_double() const (.93.103.113.131)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_double() const (.93.103.113.131)' into 'fp_struct<double>::to_ieee() const' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:509:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isnan<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isinf<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'exp_reduce_::expm1(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp:7:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'float generic_fabs<float>(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'float generic_nan<float>(char const*)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::expm1(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'tanhf' into 'std::tanh(float)' (/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath:502:0)
+INFO: [HLS 214-178] Inlining function 'POOLING_LAYER_1(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+INFO: [HLS 214-178] Inlining function 'POOLING_LAYER_2(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+INFO: [HLS 214-178] Inlining function 'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+INFO: [HLS 214-178] Inlining function 'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+INFO: [HLS 214-248] Applying array_partition to 'WBRAM': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:26:8)
+INFO: [HLS 214-248] Applying array_partition to 'biasBRAM': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:27:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM': Complete partitioning on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM': Complete partitioning on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'WBRAM': Cyclic partitioning with factor 2 on dimension 1. Complete partitioning on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:123:8)
+INFO: [HLS 214-248] Applying array_partition to 'biasBRAM': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:124:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM': Cyclic partitioning with factor 2 on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM': Complete partitioning on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'WBRAM': Complete partitioning on dimension 2. (../lenet5/hw_layers/image_convolution.cpp:248:8)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_23_4> at ../lenet5/hw_layers/image_pool.cpp:23:22 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_54_4> at ../lenet5/hw_layers/image_pool.cpp:54:22 
+INFO: [HLS 214-449] Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:25:8)
+INFO: [HLS 214-449] Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-449] Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-449] Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-449] Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-449] Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index. (../lenet5/hw_layers/image_convolution.cpp:254:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array 'tbl' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:196:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'hconv1' due to pipeline pragma (Lenet.cpp:9:19)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'Wpool1' due to pipeline pragma (Lenet.cpp:15:19)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:25:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'hconv2' due to pipeline pragma (Lenet.cpp:26:19)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_0' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_1' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_2' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_3' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_4' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_5' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'Wpool2' due to pipeline pragma (Lenet.cpp:32:19)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_0' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_1' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_2' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_3' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_4' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_5' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_0' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_1' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_0' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_1' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_10' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_11' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_12' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_13' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_14' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_15' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_2' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_3' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_4' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_5' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_6' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_7' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_8' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_9' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM' due to pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:254:8)
+INFO: [HLS 214-248] Applying array_partition to '_ZL3tbl': Cyclic partitioning with factor 7 on dimension 1. (../lenet5/hw_layers/../common.h:58:0)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:25:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_0': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_1': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_2': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_3': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_4': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_5': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:28:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_0': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_1': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_2': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_3': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_4': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_5': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:122:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_0': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM_1': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:125:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_0': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_1': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_2': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_3': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_4': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_5': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_6': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_7': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_8': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_9': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_10': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_11': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_12': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_13': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_14': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'IBRAM_15': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:247:8)
+INFO: [HLS 214-248] Applying array_partition to 'OBRAM': Complete partitioning on dimension 1. (../lenet5/hw_layers/image_convolution.cpp:254:8)
+INFO: [HLS 214-248] Applying array_partition to 'hconv1': Cyclic partitioning with factor 5 on dimension 1. (Lenet.cpp:9:19)
+INFO: [HLS 214-248] Applying array_partition to 'Wpool1': Cyclic partitioning with factor 2 on dimension 1. (Lenet.cpp:15:19)
+INFO: [HLS 214-248] Applying array_partition to 'hconv2': Cyclic partitioning with factor 2 on dimension 1. (Lenet.cpp:26:19)
+INFO: [HLS 214-248] Applying array_partition to 'Wpool2': Cyclic partitioning with factor 2 on dimension 1. (Lenet.cpp:32:19)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.33 seconds. CPU system time: 1.3 seconds. Elapsed time: 11.37 seconds; current allocated memory: 333.668 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 333.668 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 335.758 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-77] The top function 'POOLING_LAYER_2' (../lenet5/hw_layers/image_pool.cpp:41) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 338.465 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../lenet5/hw_layers/image_convolution.cpp:196:9) to (../lenet5/hw_layers/image_convolution.cpp:192:7) in function 'CONVOLUTION_LAYER_2'... converting 29 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../lenet5/hw_layers/image_convolution.cpp:80:9) to (../lenet5/hw_layers/image_convolution.cpp:79:6) in function 'CONVOLUTION_LAYER_1'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.31 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.34 seconds; current allocated memory: 362.977 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'copy_input_2'(../lenet5/hw_layers/image_convolution.cpp:36:3) and 'copy_input_3'(../lenet5/hw_layers/image_convolution.cpp:38:4) in function 'CONVOLUTION_LAYER_1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'ROW'(../lenet5/hw_layers/image_convolution.cpp:77:5) and 'COL'(../lenet5/hw_layers/image_convolution.cpp:79:6) in function 'CONVOLUTION_LAYER_1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'COL_K'(../lenet5/hw_layers/image_convolution.cpp:75:4) and 'ROW'(../lenet5/hw_layers/image_convolution.cpp:77:5) in function 'CONVOLUTION_LAYER_1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'ROW_K'(../lenet5/hw_layers/image_convolution.cpp:73:3) and 'COL_K'(../lenet5/hw_layers/image_convolution.cpp:75:4) in function 'CONVOLUTION_LAYER_1' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_101_2'(../lenet5/hw_layers/image_convolution.cpp:101:21) and 'VITIS_LOOP_102_3'(../lenet5/hw_layers/image_convolution.cpp:102:22) in function 'CONVOLUTION_LAYER_1' into perfectly nested loops.
+WARNING: [XFORM 203-561] 'VITIS_LOOP_50_2' (../lenet5/hw_layers/image_pool.cpp:50:20) in function 'lenet5' is an infinite loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'copy_input_2' (../lenet5/hw_layers/image_convolution.cpp:36:3) in function 'CONVOLUTION_LAYER_1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'ROW' (../lenet5/hw_layers/image_convolution.cpp:77:5) in function 'CONVOLUTION_LAYER_1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'COL_K' (../lenet5/hw_layers/image_convolution.cpp:75:4) in function 'CONVOLUTION_LAYER_1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'ROW_K' (../lenet5/hw_layers/image_convolution.cpp:73:3) in function 'CONVOLUTION_LAYER_1'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_101_2' (../lenet5/hw_layers/image_convolution.cpp:101:21) in function 'CONVOLUTION_LAYER_1'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.14 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.17 seconds; current allocated memory: 392.758 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'lenet5' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'copy_input_2_copy_input_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'copy_input_2_copy_input_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.16 seconds; current allocated memory: 393.715 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 393.715 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'ROW_K_COL_K_ROW_COL'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'ROW_K_COL_K_ROW_COL'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 394.223 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 394.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln104_1) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_101_2_VITIS_LOOP_102_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 35, loop 'VITIS_LOOP_101_2_VITIS_LOOP_102_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 394.223 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 394.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CONVOLUTION_LAYER_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 394.223 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 394.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'lenet5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 394.223 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 394.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3' pipeline 'copy_input_2_copy_input_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 394.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL' pipeline 'ROW_K_COL_K_ROW_COL' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_4_full_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL'.
+INFO: [RTMG 210-279] Implementing memory 'lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_WBRAM_5_RAM_AUTO_1R1W' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 396.570 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3' pipeline 'VITIS_LOOP_101_2_VITIS_LOOP_102_3' pipeline type 'loop pipeline'
+INFO: [SYN 201-210] Renamed object name 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_local_local_RAM_AUTO_0R0W' to 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_local_lbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_1_local_local_RAM_AUTO_0R0W' to 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_1_localcud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_2_local_local_RAM_AUTO_0R0W' to 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_2_localdEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_3_local_local_RAM_AUTO_0R0W' to 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_3_localeOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_4_local_local_RAM_AUTO_0R0W' to 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_4_localfYi' due to the length limit 80
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_4_full_dsp_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_9_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fexp_32ns_32ns_32_8_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_10ns_3ns_10ns_13_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_13ns_15ns_27_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_13_3_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_10ns_4ns_3_14_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3'.
+INFO: [RTMG 210-278] Implementing memory 'lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_local_lbkb' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.23 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.25 seconds; current allocated memory: 400.598 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CONVOLUTION_LAYER_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_4_full_dsp_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CONVOLUTION_LAYER_1'.
+INFO: [RTMG 210-278] Implementing memory 'lenet5_CONVOLUTION_LAYER_1_IBRAM_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 403.332 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'lenet5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/input_layer' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/Wconv1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/bconv1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lenet5/output_r' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'lenet5' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/Wconv1_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/Wconv1_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'lenet5/bconv1_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'lenet5/bconv1_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'lenet5/output_r' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'lenet5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.22 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.25 seconds; current allocated memory: 404.145 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.25 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.29 seconds; current allocated memory: 406.359 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.58 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.62 seconds; current allocated memory: 409.457 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for lenet5.
+INFO: [VLOG 209-307] Generating Verilog RTL for lenet5.
+INFO: [HLS 200-789] **** Estimated Fmax: 141.70 MHz
+INFO: [HLS 200-112] Total CPU user time: 25.3 seconds. Total CPU system time: 5.26 seconds. Total elapsed time: 33.08 seconds; peak allocated memory: 410.371 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 38s

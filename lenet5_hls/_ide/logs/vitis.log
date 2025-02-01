@@ -1,0 +1,87 @@
+14:18:17 INFO  : updated workspace path: 
+14:18:17 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /work/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+14:18:22 INFO  : Successfully created repository data at /tmp/rigel_lopper_arix88092476443212078339
+14:18:22 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix811877602344311838227 -r /tmp/rigel_lopper_arix88092476443212078339/.repo.yaml && deactivate
+14:18:23 INFO  : Embedded Template List generated successfully
+14:19:23 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /work/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+14:19:27 INFO  : Successfully created repository data at /tmp/rigel_lopper_arix815354179429164183430
+14:19:27 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix85518976580806577156 -r /tmp/rigel_lopper_arix815354179429164183430/.repo.yaml && deactivate
+14:19:27 INFO  : Embedded Template List generated successfully
+14:19:34 INFO  : created .gitignore file for the project /primary/Lenet_5/lenet5_hls
+14:19:34 INFO  : updated workspace path: /primary/Lenet_5/lenet5_hls
+14:19:34 INFO  : Marking the target connection as default Local
+14:19:34 INFO  : Marking the target connection as default Linux Agent
+14:19:34 INFO  : Marking the target connection as default XRTServer
+14:19:34 INFO  : Marking the target connection as default LinuxEmulation
+14:19:34 INFO  : Marking the target connection as default QEMU
+14:19:34 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st   /work/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+14:19:38 INFO  : Successfully created repository data at /primary/Lenet_5/lenet5_hls/_ide/.wsdata
+14:19:38 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix82108360671503211833 -r /primary/Lenet_5/lenet5_hls/_ide/.wsdata/.repo.yaml && deactivate
+14:19:38 INFO  : Embedded Template List generated successfully
+14:23:04 INFO  : created .gitignore file for the project /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component
+14:30:15 INFO  : Terminating Vitis C++ Server
+19:49:19 INFO  : updated workspace path: 
+19:49:19 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix814505534294418093948 -r _ide/.wsdata/.repo.yaml && deactivate
+19:49:19 INFO  : 
+19:49:19 ERROR :                     [ERROR]: Please set the Embeddedsw directory path.
+19:49:19 INFO  :                     Usage:
+19:49:19 INFO  :                         python3 repo.py -st <the ESW_REPO_PATH>
+19:49:19 INFO  :                     For multiple esw repo paths, use below with left one having higher precedence:
+19:49:19 INFO  :                         python3 repo.py -st <path_1> <path_2> ... <path_n>
+19:49:19 INFO  :                     
+19:49:19 ERROR : Error in generating Application Template List.
+19:49:19 ERROR : Error in generating Application Template List.                     [ERROR]: Please set the Embeddedsw directory path.
+19:49:28 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix810231878655934389856 -r _ide/.wsdata/.repo.yaml && deactivate
+19:49:28 INFO  : 
+19:49:28 ERROR :                     [ERROR]: Please set the Embeddedsw directory path.
+19:49:28 INFO  :                     Usage:
+19:49:28 INFO  :                         python3 repo.py -st <the ESW_REPO_PATH>
+19:49:28 INFO  :                     For multiple esw repo paths, use below with left one having higher precedence:
+19:49:28 INFO  :                         python3 repo.py -st <path_1> <path_2> ... <path_n>
+19:49:28 INFO  :                     
+19:49:28 ERROR : Error in generating Application Template List.
+19:49:28 ERROR : Error in generating Application Template List.                     [ERROR]: Please set the Embeddedsw directory path.
+19:49:28 INFO  : updated workspace path: /primary/Lenet_5/lenet5_hls
+19:49:28 INFO  : created .gitignore file for the project /primary/Lenet_5/lenet5_hls
+19:49:29 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix810938589073466635776 -r /primary/Lenet_5/lenet5_hls/_ide/.wsdata/.repo.yaml && deactivate
+19:49:29 INFO  : Embedded Template List generated successfully
+20:04:33 INFO  : Terminating Vitis C++ Server
+20:05:00 INFO  : updated workspace path: 
+20:05:00 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix813779187838969863363 -r _ide/.wsdata/.repo.yaml && deactivate
+20:05:01 INFO  : 
+20:05:01 ERROR :                     [ERROR]: Please set the Embeddedsw directory path.
+20:05:01 INFO  :                     Usage:
+20:05:01 INFO  :                         python3 repo.py -st <the ESW_REPO_PATH>
+20:05:01 INFO  :                     For multiple esw repo paths, use below with left one having higher precedence:
+20:05:01 INFO  :                         python3 repo.py -st <path_1> <path_2> ... <path_n>
+20:05:01 INFO  :                     
+20:05:01 ERROR : Error in generating Application Template List.
+20:05:01 ERROR : Error in generating Application Template List.                     [ERROR]: Please set the Embeddedsw directory path.
+20:06:15 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix817511410633922181363 -r _ide/.wsdata/.repo.yaml && deactivate
+20:06:16 INFO  : 
+20:06:16 ERROR :                     [ERROR]: Please set the Embeddedsw directory path.
+20:06:16 INFO  :                     Usage:
+20:06:16 INFO  :                         python3 repo.py -st <the ESW_REPO_PATH>
+20:06:16 INFO  :                     For multiple esw repo paths, use below with left one having higher precedence:
+20:06:16 INFO  :                         python3 repo.py -st <path_1> <path_2> ... <path_n>
+20:06:16 INFO  :                     
+20:06:16 ERROR : Error in generating Application Template List.
+20:06:16 ERROR : Error in generating Application Template List.                     [ERROR]: Please set the Embeddedsw directory path.
+20:06:16 INFO  : created .gitignore file for the project /primary/Lenet_5/lenet5_hls
+20:06:16 INFO  : updated workspace path: /primary/Lenet_5/lenet5_hls
+20:06:16 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix811657764403964366622 -r /primary/Lenet_5/lenet5_hls/_ide/.wsdata/.repo.yaml && deactivate
+20:06:17 INFO  : Embedded Template List generated successfully
+12:45:41 INFO  : updated workspace path: /primary/Lenet_5/lenet5_hls
+12:45:41 INFO  : created .gitignore file for the project /primary/Lenet_5/lenet5_hls
+12:45:43 INFO  : Successfully created repository data at /tmp/rigel_lopper_arix813373613575383047686
+12:45:43 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix811479045926003747855 -r /tmp/rigel_lopper_arix813373613575383047686/.repo.yaml && deactivate
+12:45:44 INFO  : Embedded Template List generated successfully
+12:45:44 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix817209559103763812307 -r /primary/Lenet_5/lenet5_hls/_ide/.wsdata/.repo.yaml && deactivate
+12:45:45 INFO  : Embedded Template List generated successfully
+13:33:46 INFO  : Terminating Vitis C++ Server
+13:35:26 INFO  : updated workspace path: /primary/Lenet_5/lenet5_hls
+13:35:28 INFO  : Successfully created repository data at /tmp/rigel_lopper_arix88528933651055047456
+13:35:28 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix85320068329447294459 -r /tmp/rigel_lopper_arix88528933651055047456/.repo.yaml && deactivate
+13:35:29 INFO  : Embedded Template List generated successfully
+13:35:29 INFO  : bash, -c, source /work/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /work/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_arix88006165026564748076 -r /primary/Lenet_5/lenet5_hls/_ide/.wsdata/.repo.yaml && deactivate
+13:35:29 INFO  : Embedded Template List generated successfully

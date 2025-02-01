@@ -1,0 +1,4621 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.513
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_tables.cpp, 
+                       Line: 1068, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.770
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_tables.cpp, 
+                       Line: 1330, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.803
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_tables.cpp, 
+                       Line: 1366, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.1059.50393
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_tables.cpp, 
+                       Line: 1628, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.1382
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_tables.cpp, 
+                       Line: 2100, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_hls_exp_tables.pp.cpp
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/build/hls_clib/lnx64/hlsmath_csyn_common/objs/src/common/hls_exp_tables.pp.cpp, 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 104, 
+                   Column: 33 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 229, 
+                   Column: 40 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 326, 
+                   Column: 28 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 244, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 326, Column: 17 }
+Function:        _ZNK9fp_structIfE8to_floatEv
+Args:            
+  - Callee:          'fp_struct<float>::data() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 309, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<float>::to_float() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 347, Column: 16 }
+Function:        _ZNK9fp_structIfE7to_ieeeEv
+Args:            
+  - Callee:          'fp_struct<float>::to_float() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 12, Column: 16 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 14, Column: 13 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                   Line: 13, Column: 10 }
+Function:        _Z12generic_fabsIfET_S0_
+Args:            
+  - Callee:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                   Line: 15, Column: 14 }
+Function:        _Z11generic_nanIfET_PKc
+Args:            
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                   Line: 17, Column: 21 }
+Function:        _Z13generic_isnanIdEiT_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                   Line: 17, Column: 21 }
+Function:        _Z13generic_isinfIdEiT_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 496, Column: 17 }
+Function:        _ZNK9fp_structIdE9to_doubleEv
+Args:            
+  - Callee:          'fp_struct<double>::data() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 475, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<double>::to_double() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 510, Column: 16 }
+Function:        _ZNK9fp_structIdE7to_ieeeEv
+Args:            
+  - Callee:          'fp_struct<double>::to_double() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 160, Column: 15 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 337, Column: 16 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 180, Column: 10 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 181, Column: 10 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 293, Column: 58 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 90, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 208, Column: 20 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::expv() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 485, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                   Line: 8, Column: 22 }
+Function:        _ZN11exp_reduce_5expm1Ef
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                   Line: 12, Column: 12 }
+Function:        _ZN11exp_reduce_5expm1Ef
+Args:            
+  - Callee:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 32, Column: 18 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 33, Column: 17 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 61, Column: 16 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 39, Column: 13 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                   Line: 8, Column: 12 }
+Function:        tanhf
+Args:            
+  - Callee:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          tanhf
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                   Line: 502, Column: 12 }
+Function:        _ZSt4tanhf
+Args:            
+  - Callee:          tanhf
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'std::tanh(float)'
+    DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                       Line: 502, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 14, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 23, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'POOLING_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 14, 
+                       Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 35, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 46, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'POOLING_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 45, 
+                       Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 54, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 244, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 62, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 67, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 20, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 305, 
+                   Column: 6 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        D_IN
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 309, 
+                   Column: 24 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_309_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 201, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        DEPTH_IN
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 85, 
+                   Column: 7 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        D_OUT
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 244, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        D_IN
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:305:6'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_3
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 244, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_309_5
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:309:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_3
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaPartiallyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 116, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        DEPTH_OUT
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:192:7'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_2
+  - String:          ''' partially '
+  - String:          ''
+  - String:          'with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 116, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        DEPTH_IN
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:201:8'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_2
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 116, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        DEPTH_IN
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:201:8'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_2
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 23, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        D_OUT
+  - String:          ''' ('
+  - LoopLoc:         '../lenet5/hw_layers/image_convolution.cpp:85:7'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          CONVOLUTION_LAYER_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 104, 
+                   Column: 33 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 229, 
+                   Column: 40 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 326, 
+                   Column: 28 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 244, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 326, Column: 17 }
+Function:        _ZNK9fp_structIfE8to_floatEv.32.42.51.62
+Args:            
+  - Callee:          'fp_struct<float>::data() const (.35.45.54.65)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 309, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<float>::to_float() const (.32.42.51.62)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 347, Column: 16 }
+Function:        _ZNK9fp_structIfE7to_ieeeEv
+Args:            
+  - Callee:          'fp_struct<float>::to_float() const (.32.42.51.62)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 12, Column: 16 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 14, Column: 13 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                   Line: 13, Column: 10 }
+Function:        _Z12generic_fabsIfET_S0_
+Args:            
+  - Callee:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                   Line: 15, Column: 14 }
+Function:        _Z11generic_nanIfET_PKc
+Args:            
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                   Line: 17, Column: 21 }
+Function:        _Z13generic_isnanIdEiT_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                   Line: 17, Column: 21 }
+Function:        _Z13generic_isinfIdEiT_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 496, Column: 17 }
+Function:        _ZNK9fp_structIdE9to_doubleEv.93.103.113.131
+Args:            
+  - Callee:          'fp_struct<double>::data() const (.96.106.116.134)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 475, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<double>::to_double() const (.93.103.113.131)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 510, Column: 16 }
+Function:        _ZNK9fp_structIdE7to_ieeeEv
+Args:            
+  - Callee:          'fp_struct<double>::to_double() const (.93.103.113.131)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 160, Column: 15 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 180, Column: 10 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 181, Column: 10 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 190, Column: 15 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 208, Column: 20 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'fp_struct<double>::expv() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 485, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 293, Column: 58 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - Callee:          'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 90, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                   Line: 8, Column: 22 }
+Function:        _ZN11exp_reduce_5expm1Ef
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                   Line: 12, Column: 12 }
+Function:        _ZN11exp_reduce_5expm1Ef
+Args:            
+  - Callee:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 32, Column: 18 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 33, Column: 17 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 39, Column: 13 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 61, Column: 16 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - Callee:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                   Line: 8, Column: 12 }
+Function:        tanhf
+Args:            
+  - Callee:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          tanhf
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                   Line: 502, Column: 12 }
+Function:        _ZSt4tanhf
+Args:            
+  - Callee:          tanhf
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'std::tanh(float)'
+    DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                       Line: 502, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 14, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 23, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'POOLING_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 14, 
+                       Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 35, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 46, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'POOLING_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 45, 
+                       Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 54, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 244, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 62, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 7, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 67, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 20, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_lenet5_ir
+Args:            
+  - Callee:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_lenet5_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 23, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 116, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 244, 
+                   Column: 0 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          '_tanh(float)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 4, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 244, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 322, Column: 0 }
+Function:        _ZNK9fp_structIfE8to_floatEv.32.42.51.62
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::data() const (.35.45.54.65)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 309, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<float>::to_float() const (.32.42.51.62)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 346, Column: 0 }
+Function:        _ZNK9fp_structIfE7to_ieeeEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_float() const (.32.42.51.62)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 322, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                   Line: 12, Column: 0 }
+Function:        _Z12generic_fabsIfET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                   Line: 10, Column: 0 }
+Function:        _Z11generic_nanIfET_PKc
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                   Line: 16, Column: 0 }
+Function:        _Z13generic_isnanIdEiT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                   Line: 16, Column: 0 }
+Function:        _Z13generic_isinfIdEiT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 494, Column: 0 }
+Function:        _ZNK9fp_structIdE9to_doubleEv.93.103.113.131
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::data() const (.96.106.116.134)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 475, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<double>::to_double() const (.93.103.113.131)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 509, Column: 0 }
+Function:        _ZNK9fp_structIdE7to_ieeeEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::to_double() const (.93.103.113.131)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'int generic_isnan<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h, 
+                       Line: 16, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'int generic_isinf<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h, 
+                       Line: 16, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::expv() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 485, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                   Line: 157, Column: 0 }
+Function:        _ZN11exp_reduce_11exp_genericIdEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 90, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double exp_reduce_::exp_generic<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h, 
+                       Line: 157, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                   Line: 7, Column: 0 }
+Function:        _ZN11exp_reduce_5expm1Ef
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 28, Column: 0 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 28, Column: 0 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h, 
+                       Line: 12, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 28, Column: 0 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                   Line: 28, Column: 0 }
+Function:        _ZN12explog_based12generic_tanhIfEET_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'exp_reduce_::expm1(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float explog_based::generic_tanh<float>(float)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h, 
+                       Line: 28, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                   Line: 502, Column: 0 }
+Function:        _ZSt4tanhf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          tanhf
+    DebugLoc:        { File: /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp, 
+                       Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'std::tanh(float)'
+    DebugLoc:        { File: '/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath', 
+                       Line: 502, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'POOLING_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 14, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'POOLING_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_pool.cpp, Line: 45, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 7, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)'
+    DebugLoc:        { File: ./../lenet5/hw_layers/image_fullyconnected.h, 
+                       Line: 20, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 26, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          WBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 27, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          biasBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 123, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          WBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 124, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          biasBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 248, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          WBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_23_4
+  - String:          '> at '
+  - LoopLoc:         '../lenet5/hw_layers/image_pool.cpp:23:22'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          '> at '
+  - LoopLoc:         '../lenet5/hw_layers/image_pool.cpp:54:22'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 25, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           IBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 254, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           OBRAM
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ./Weights_Pool1.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=2 variable=Wpool1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  lenet5
+  - String:          ' '
+  - varLoc:          './Weights_Pool1.h:1:0'
+  - String:          ' '
+  - VarName:         Wpool1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ./Weights_Pool1.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            Wpool1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ./Weights_Pool2.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=2 variable=Wpool2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  lenet5
+  - String:          ' '
+  - varLoc:          './Weights_Pool2.h:1:0'
+  - String:          ' '
+  - VarName:         Wpool2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ./Weights_Pool2.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            Wpool2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/../common.h, Line: 58, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=7 variable=_ZL3tbl'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  lenet5
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/../common.h:58:0'
+  - String:          ' '
+  - PragmaSrcLoc:    '../lenet5/hw_layers/image_convolution.cpp:196:9'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 196, Column: 9 }
+  - VarName:         tbl
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 196, 
+                   Column: 9 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '7'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            tbl
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: Lenet.cpp, Line: 9, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=5 variable=hconv1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  lenet5
+  - String:          ' '
+  - varLoc:          'Lenet.cpp:9:19'
+  - String:          ' '
+  - VarName:         hconv1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: Lenet.cpp, Line: 9, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '5'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            hconv1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 25, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:25:8'
+  - String:          ' '
+  - VarName:         IBRAM
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 25, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_3'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_3
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_3
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_4'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_4
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_4
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_5'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_1
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:28:8'
+  - String:          ' '
+  - VarName:         OBRAM_5
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_5
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: Lenet.cpp, Line: 33, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=2 variable=hconv2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  lenet5
+  - String:          ' '
+  - varLoc:          'Lenet.cpp:33:19'
+  - String:          ' '
+  - VarName:         hconv2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: Lenet.cpp, Line: 33, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '2'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            hconv2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_3'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_3
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_3
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_4'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_4
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_4
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_5'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:122:8'
+  - String:          ' '
+  - VarName:         IBRAM_5
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_5
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:125:8'
+  - String:          ' '
+  - VarName:         OBRAM_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_2
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:125:8'
+  - String:          ' '
+  - VarName:         OBRAM_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_10'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_10
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_10
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_11'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_11
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_11
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_12'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_12
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_12
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_13'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_13
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_13
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_14'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_14
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_14
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_15'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_15
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_15
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_3'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_3
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_3
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_4'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_4
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_4
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_5'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_5
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_5
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_6'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_6
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_6
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_7'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_7
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_7
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_8'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_8
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_8
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=IBRAM_9'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:247:8'
+  - String:          ' '
+  - VarName:         IBRAM_9
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            IBRAM_9
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 254, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=OBRAM'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  CONVOLUTION_LAYER_3
+  - String:          ' '
+  - varLoc:          '../lenet5/hw_layers/image_convolution.cpp:254:8'
+  - String:          ' '
+  - VarName:         OBRAM
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 254, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            OBRAM
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/../common.h, Line: 58, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL3tbl
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '7'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ./Weights_Pool2.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          Wpool2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ./Weights_Pool1.h, Line: 1, Column: 0 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          Wpool1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 25, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_0
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_3
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_4
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 28, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_1PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_5
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_0
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_3
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_4
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 122, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_5
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_0
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 125, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_2PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_0
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_3
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_4
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_5
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_6
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_7
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_8
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_9
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_10
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_11
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_12
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_13
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_14
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 247, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          IBRAM_15
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, Line: 254, 
+                   Column: 8 }
+Function:        _Z19CONVOLUTION_LAYER_3PKfS0_S0_Pfi
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          OBRAM
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: Lenet.cpp, Line: 9, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          hconv1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '5'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: Lenet.cpp, Line: 33, Column: 19 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          hconv2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 14, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int) (.1)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: Lenet.cpp, Line: 35, Column: 4 }
+Function:        _Z6lenet5PKfPf
+Args:            
+  - Callee:          'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'
+    DebugLoc:        { File: ../lenet5/hw_layers/image_convolution.cpp, 
+                       Line: 116, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'lenet5(float const*, float*)'
+    DebugLoc:        { File: Lenet.cpp, Line: 5, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...

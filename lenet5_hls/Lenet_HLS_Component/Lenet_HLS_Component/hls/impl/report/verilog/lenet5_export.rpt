@@ -1,0 +1,23 @@
+
+
+Implementation tool: Xilinx Vivado v.2024.2
+Project:             Lenet_HLS_Component
+Solution:            hls
+Device target:       xczu7ev-ffvc1156-2-e
+Report date:         Sat Feb 01 13:42:56 IST 2025
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:           4677
+FF:            3083
+DSP:             37
+BRAM:            14
+URAM:             0
+LATCH:           12
+SRL:            260
+CLB:              0
+
+#=== Final timing ===
+CP required:                     10.000
+CP achieved post-synthesis:      4.020
+Timing met

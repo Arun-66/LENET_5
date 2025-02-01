@@ -1,0 +1,3 @@
+relativeroot=/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component
+original_argv=--mode hls --impl --config /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg --work_dir Lenet_HLS_Component 
+

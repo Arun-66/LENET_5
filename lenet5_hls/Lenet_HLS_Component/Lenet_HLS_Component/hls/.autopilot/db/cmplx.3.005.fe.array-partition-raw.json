@@ -1,0 +1,64 @@
+{
+  "0": {
+    "basicblocks": 13,
+    "calls": "2 1 3",
+    "file": "Lenet.cpp",
+    "fileloc": 5,
+    "instructions": 144,
+    "loads": {
+      "G": 10,
+      "L": 8
+    },
+    "name": "lenet5",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 1813
+  },
+  "1": {
+    "basicblocks": 60,
+    "calls": "",
+    "file": "image_convolution.cpp",
+    "fileloc": 111,
+    "instructions": 624,
+    "loads": {
+      "G": 12,
+      "L": 45
+    },
+    "name": "CONVOLUTION_LAYER_2",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 624
+  },
+  "2": {
+    "basicblocks": 19,
+    "calls": "",
+    "file": "image_convolution.cpp",
+    "fileloc": 18,
+    "instructions": 239,
+    "loads": {
+      "L": 26
+    },
+    "name": "CONVOLUTION_LAYER_1",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 239
+  },
+  "3": {
+    "basicblocks": 34,
+    "calls": "",
+    "file": "image_convolution.cpp",
+    "fileloc": 239,
+    "instructions": 806,
+    "loads": {
+      "L": 36
+    },
+    "name": "CONVOLUTION_LAYER_3",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 806
+  }
+}

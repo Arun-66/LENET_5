@@ -1,0 +1,55 @@
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:7981:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < size; i++) {
+ ^~~
+ VITIS_LOOP_16_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:7981:2: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10098:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10098:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10112:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10112:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10126:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:10126:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:11760:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:11760:7: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13583:3: warning: Added loop label VITIS_LOOP_8_1:   [xilinx-label-all-loops]
+  for (int batch = 0; batch < 1; batch++) {
+  ^~~
+  VITIS_LOOP_8_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13583:3: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13584:5: warning: Added loop label VITIS_LOOP_9_2:   [xilinx-label-all-loops]
+    for (int j = 0; j < 84; j++) {
+    ^~~
+    VITIS_LOOP_9_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13584:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13586:7: warning: Added loop label VITIS_LOOP_11_3:   [xilinx-label-all-loops]
+      for (int i = 0; i < 120; i++) {
+      ^~~
+      VITIS_LOOP_11_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13586:7: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13596:5: warning: Added loop label VITIS_LOOP_21_1:   [xilinx-label-all-loops]
+    for (int batch = 0; batch < 1; batch++) {
+    ^~~
+    VITIS_LOOP_21_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13596:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13597:9: warning: Added loop label VITIS_LOOP_22_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < 10; j++) {
+        ^~~
+        VITIS_LOOP_22_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13597:9: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13599:13: warning: Added loop label VITIS_LOOP_24_3:   [xilinx-label-all-loops]
+            for (int i = 0; i < 84; i++) {
+            ^~~
+            VITIS_LOOP_24_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/Lenet.pp.0.cpp:13599:13: note: FIX-IT applied suggested code changes

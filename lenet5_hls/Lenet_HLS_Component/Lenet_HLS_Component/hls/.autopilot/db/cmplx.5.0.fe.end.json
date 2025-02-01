@@ -1,0 +1,75 @@
+{
+    "0": {
+        "name": "lenet5",
+        "file": "Lenet.cpp",
+        "fileloc": "5",
+        "instructions": "7",
+        "total_instructions": "275",
+        "calls": "3",
+        "basicblocks": "1"
+    },
+    "1": {
+        "name": "CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3",
+        "file": "..\/lenet5\/hw_layers\/image_convolution.cpp",
+        "fileloc": "36",
+        "instructions": "37",
+        "total_instructions": "37",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3",
+            "T": "1"
+        },
+        "stores": {
+            "L": "7"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL",
+        "file": "..\/lenet5\/hw_layers\/image_convolution.cpp",
+        "fileloc": "26",
+        "instructions": "139",
+        "total_instructions": "139",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "20"
+        },
+        "stores": {
+            "L": "20"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "CONVOLUTION_LAYER_1",
+        "file": "..\/lenet5\/hw_layers\/image_convolution.cpp",
+        "fileloc": "25",
+        "instructions": "12",
+        "total_instructions": "268",
+        "calls": "1 2 4",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3",
+        "file": "..\/lenet5\/hw_layers\/image_convolution.cpp",
+        "fileloc": "101",
+        "instructions": "80",
+        "total_instructions": "80",
+        "calls": "",
+        "basicblocks": "10",
+        "loads": {
+            "L": "9"
+        },
+        "stores": {
+            "L": "11"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

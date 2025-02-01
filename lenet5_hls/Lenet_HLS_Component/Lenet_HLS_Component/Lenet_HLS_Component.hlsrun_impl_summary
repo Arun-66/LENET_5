@@ -1,0 +1,206 @@
+<ENTRY>
+{
+ "thisFile": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/Lenet_HLS_Component.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat Feb  1 13:36:55 2025",
+ "timestampMillis": "1738397215882",
+ "buildStep": {
+  "cmdId": "b8b82de9-6d5d-4fcb-8ffd-58a9b70dbc92",
+  "name": "vitis-run",
+  "logFile": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/logs/Lenet_HLS_Component.steps.log",
+  "commandLine": "/work/Xilinx/Vitis/2024.2/bin/unwrapped/lnx64.o/vitis-run  --mode hls --impl --config /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg --work_dir Lenet_HLS_Component ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg",
+   "--work_dir",
+   "Lenet_HLS_Component"
+  ],
+  "iniFiles": [],
+  "cwd": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Feb  1 13:36:55 2025",
+ "timestampMillis": "1738397215882",
+ "status": {
+  "cmdId": "b8b82de9-6d5d-4fcb-8ffd-58a9b70dbc92",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223643",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "lenet5",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/common.h",
+     "/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet.cpp",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/lenet5.hpp",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Weights_Conv1.h",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Weights_Pool1.h",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Weights_Pool2.h",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Wfc2.h",
+     "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Wconv2.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223645",
+ "buildStep": {
+  "cmdId": "1ddd4a1a-3bcf-4a4f-b7db-d64aac0b1ecc",
+  "name": "",
+  "logFile": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223646",
+ "status": {
+  "cmdId": "1ddd4a1a-3bcf-4a4f-b7db-d64aac0b1ecc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223647",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223647",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/report/verilog/export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223648",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/report/verilog/export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223648",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223648",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/report/verilog/export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Feb  1 13:37:03 2025",
+ "timestampMillis": "1738397223649",
+ "report": {
+  "path": "/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/impl/report/verilog/export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

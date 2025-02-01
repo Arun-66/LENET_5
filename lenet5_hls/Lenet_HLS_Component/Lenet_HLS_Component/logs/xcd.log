@@ -1,0 +1,300 @@
+Fri Jan 31 20:43:17 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 20:43:17 2025: Server was asked to start on port: '44765'
+Fri Jan 31 20:43:17 2025: Server is using token UUID: '6a9107f0-eb90-4a74-9498-4f024f55b545'
+Fri Jan 31 20:43:17 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 20:43:17 2025: Attempting to start server on port '44765'
+Fri Jan 31 20:43:17 2025: XCD main fifo: created main fifo '/tmp/xcdmain6a9107f0-eb90-4a74-9498-4f024f55b545', fd read = 13
+Fri Jan 31 20:43:17 2025: Running Dispatch Server
+Fri Jan 31 20:43:17 2025: Version 2.2.0
+Fri Jan 31 20:43:18 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:43:18 2025: Starting Socket connection
+Fri Jan 31 20:43:18 2025: EXCHANGE_TOKEN received, server token: 6a9107f0-eb90-4a74-9498-4f024f55b545, passed token: 6a9107f0-eb90-4a74-9498-4f024f55b545
+Fri Jan 31 20:43:19 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 20:43:19 2025: SESSION_MGR: creating session with session uuid: '71b1a706-596b-4c3c-b802-8eb506162a1e' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:19 2025: KERNEL_SVC: creating session with uuid: '71b1a706-596b-4c3c-b802-8eb506162a1e' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:19 2025: GUIDANCE_SMGR: creating guidance session with uuid: '71b1a706-596b-4c3c-b802-8eb506162a1e' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:19 2025: SYSTEM_DIAGRAM: creating session with uuid: '71b1a706-596b-4c3c-b802-8eb506162a1e' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:28 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:43:28 2025: Starting Socket connection
+Fri Jan 31 20:43:47 2025: SESSION_MGR: closing session for UUID '71b1a706-596b-4c3c-b802-8eb506162a1e' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:47 2025: KERNEL_SVC: closing session for UUID '71b1a706-596b-4c3c-b802-8eb506162a1e' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:47 2025: GUIDANCE_SMGR: closing session for UUID '71b1a706-596b-4c3c-b802-8eb506162a1e' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:47 2025: SYSTEM_DIAGRAM: closing session for UUID '71b1a706-596b-4c3c-b802-8eb506162a1e' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:43:47 2025: STOP_SERVER received, server token: 6a9107f0-eb90-4a74-9498-4f024f55b545, passed token: 6a9107f0-eb90-4a74-9498-4f024f55b545
+Fri Jan 31 20:43:47 2025: Socket received request to stop server.
+Fri Jan 31 20:43:47 2025: Dispatch Server: do_await_stop
+Fri Jan 31 20:43:47 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 20:43:47 2025: XCD main fifo: Stopping
+Fri Jan 31 20:43:47 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 20:43:47 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 20:43:47 2025: SERVER: destructor for server bound to port 44765
+Fri Jan 31 20:43:47 2025: XCD main fifo: Good unlink of /tmp/xcdmain6a9107f0-eb90-4a74-9498-4f024f55b545
+Fri Jan 31 20:43:47 2025: Server exiting with status 0.
+Fri Jan 31 20:43:47 2025: Closing log file.
+Fri Jan 31 20:45:21 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 20:45:21 2025: Server was asked to start on port: '46745'
+Fri Jan 31 20:45:21 2025: Server is using token UUID: '27cb704d-2696-4696-a55e-90dde9f6d4ea'
+Fri Jan 31 20:45:21 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 20:45:21 2025: Attempting to start server on port '46745'
+Fri Jan 31 20:45:21 2025: XCD main fifo: created main fifo '/tmp/xcdmain27cb704d-2696-4696-a55e-90dde9f6d4ea', fd read = 13
+Fri Jan 31 20:45:21 2025: Running Dispatch Server
+Fri Jan 31 20:45:21 2025: Version 2.2.0
+Fri Jan 31 20:45:22 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:45:22 2025: Starting Socket connection
+Fri Jan 31 20:45:22 2025: EXCHANGE_TOKEN received, server token: 27cb704d-2696-4696-a55e-90dde9f6d4ea, passed token: 27cb704d-2696-4696-a55e-90dde9f6d4ea
+Fri Jan 31 20:45:22 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 20:45:22 2025: SESSION_MGR: creating session with session uuid: '5a2bb9fe-c7d5-4601-903b-8781c0901702' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:22 2025: KERNEL_SVC: creating session with uuid: '5a2bb9fe-c7d5-4601-903b-8781c0901702' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:22 2025: GUIDANCE_SMGR: creating guidance session with uuid: '5a2bb9fe-c7d5-4601-903b-8781c0901702' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:22 2025: SYSTEM_DIAGRAM: creating session with uuid: '5a2bb9fe-c7d5-4601-903b-8781c0901702' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:30 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:45:30 2025: Starting Socket connection
+Fri Jan 31 20:45:57 2025: SESSION_MGR: closing session for UUID '5a2bb9fe-c7d5-4601-903b-8781c0901702' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:57 2025: KERNEL_SVC: closing session for UUID '5a2bb9fe-c7d5-4601-903b-8781c0901702' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:57 2025: GUIDANCE_SMGR: closing session for UUID '5a2bb9fe-c7d5-4601-903b-8781c0901702' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:57 2025: SYSTEM_DIAGRAM: closing session for UUID '5a2bb9fe-c7d5-4601-903b-8781c0901702' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:45:57 2025: STOP_SERVER received, server token: 27cb704d-2696-4696-a55e-90dde9f6d4ea, passed token: 27cb704d-2696-4696-a55e-90dde9f6d4ea
+Fri Jan 31 20:45:57 2025: Socket received request to stop server.
+Fri Jan 31 20:45:57 2025: Dispatch Server: do_await_stop
+Fri Jan 31 20:45:57 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 20:45:57 2025: XCD main fifo: Stopping
+Fri Jan 31 20:45:57 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 20:45:57 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 20:45:57 2025: SERVER: destructor for server bound to port 46745
+Fri Jan 31 20:45:57 2025: XCD main fifo: Good unlink of /tmp/xcdmain27cb704d-2696-4696-a55e-90dde9f6d4ea
+Fri Jan 31 20:45:57 2025: Server exiting with status 0.
+Fri Jan 31 20:45:57 2025: Closing log file.
+Fri Jan 31 20:47:41 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 20:47:41 2025: Server was asked to start on port: '38367'
+Fri Jan 31 20:47:41 2025: Server is using token UUID: 'b8853296-3b08-4ce0-99a8-00f4ffeffdf8'
+Fri Jan 31 20:47:41 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 20:47:41 2025: Attempting to start server on port '38367'
+Fri Jan 31 20:47:41 2025: XCD main fifo: created main fifo '/tmp/xcdmainb8853296-3b08-4ce0-99a8-00f4ffeffdf8', fd read = 13
+Fri Jan 31 20:47:41 2025: Running Dispatch Server
+Fri Jan 31 20:47:41 2025: Version 2.2.0
+Fri Jan 31 20:47:42 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:47:42 2025: Starting Socket connection
+Fri Jan 31 20:47:42 2025: EXCHANGE_TOKEN received, server token: b8853296-3b08-4ce0-99a8-00f4ffeffdf8, passed token: b8853296-3b08-4ce0-99a8-00f4ffeffdf8
+Fri Jan 31 20:47:42 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 20:47:42 2025: SESSION_MGR: creating session with session uuid: '5e3e0f56-d756-4796-94bc-aee0ce06647f' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:47:42 2025: KERNEL_SVC: creating session with uuid: '5e3e0f56-d756-4796-94bc-aee0ce06647f' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:47:42 2025: GUIDANCE_SMGR: creating guidance session with uuid: '5e3e0f56-d756-4796-94bc-aee0ce06647f' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:47:42 2025: SYSTEM_DIAGRAM: creating session with uuid: '5e3e0f56-d756-4796-94bc-aee0ce06647f' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:47:51 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:47:51 2025: Starting Socket connection
+Fri Jan 31 20:48:16 2025: SESSION_MGR: closing session for UUID '5e3e0f56-d756-4796-94bc-aee0ce06647f' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:48:16 2025: KERNEL_SVC: closing session for UUID '5e3e0f56-d756-4796-94bc-aee0ce06647f' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:48:16 2025: GUIDANCE_SMGR: closing session for UUID '5e3e0f56-d756-4796-94bc-aee0ce06647f' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:48:16 2025: SYSTEM_DIAGRAM: closing session for UUID '5e3e0f56-d756-4796-94bc-aee0ce06647f' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:48:16 2025: STOP_SERVER received, server token: b8853296-3b08-4ce0-99a8-00f4ffeffdf8, passed token: b8853296-3b08-4ce0-99a8-00f4ffeffdf8
+Fri Jan 31 20:48:16 2025: Socket received request to stop server.
+Fri Jan 31 20:48:16 2025: Dispatch Server: do_await_stop
+Fri Jan 31 20:48:16 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 20:48:16 2025: XCD main fifo: Stopping
+Fri Jan 31 20:48:16 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 20:48:16 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 20:48:16 2025: SERVER: destructor for server bound to port 38367
+Fri Jan 31 20:48:16 2025: XCD main fifo: Good unlink of /tmp/xcdmainb8853296-3b08-4ce0-99a8-00f4ffeffdf8
+Fri Jan 31 20:48:16 2025: Server exiting with status 0.
+Fri Jan 31 20:48:16 2025: Closing log file.
+Fri Jan 31 20:50:32 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 20:50:32 2025: Server was asked to start on port: '42383'
+Fri Jan 31 20:50:32 2025: Server is using token UUID: 'f8214312-c695-4041-9ae5-5f782e368891'
+Fri Jan 31 20:50:32 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 20:50:32 2025: Attempting to start server on port '42383'
+Fri Jan 31 20:50:32 2025: XCD main fifo: created main fifo '/tmp/xcdmainf8214312-c695-4041-9ae5-5f782e368891', fd read = 13
+Fri Jan 31 20:50:32 2025: Running Dispatch Server
+Fri Jan 31 20:50:32 2025: Version 2.2.0
+Fri Jan 31 20:50:33 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:50:33 2025: Starting Socket connection
+Fri Jan 31 20:50:33 2025: EXCHANGE_TOKEN received, server token: f8214312-c695-4041-9ae5-5f782e368891, passed token: f8214312-c695-4041-9ae5-5f782e368891
+Fri Jan 31 20:50:33 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 20:50:33 2025: SESSION_MGR: creating session with session uuid: '312eac66-3a1d-49ca-b33d-8ce1556c55c5' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:33 2025: KERNEL_SVC: creating session with uuid: '312eac66-3a1d-49ca-b33d-8ce1556c55c5' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:33 2025: GUIDANCE_SMGR: creating guidance session with uuid: '312eac66-3a1d-49ca-b33d-8ce1556c55c5' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:33 2025: SYSTEM_DIAGRAM: creating session with uuid: '312eac66-3a1d-49ca-b33d-8ce1556c55c5' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:41 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:50:41 2025: Starting Socket connection
+Fri Jan 31 20:50:48 2025: SESSION_MGR: closing session for UUID '312eac66-3a1d-49ca-b33d-8ce1556c55c5' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:48 2025: KERNEL_SVC: closing session for UUID '312eac66-3a1d-49ca-b33d-8ce1556c55c5' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:48 2025: GUIDANCE_SMGR: closing session for UUID '312eac66-3a1d-49ca-b33d-8ce1556c55c5' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:48 2025: SYSTEM_DIAGRAM: closing session for UUID '312eac66-3a1d-49ca-b33d-8ce1556c55c5' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:50:48 2025: STOP_SERVER received, server token: f8214312-c695-4041-9ae5-5f782e368891, passed token: f8214312-c695-4041-9ae5-5f782e368891
+Fri Jan 31 20:50:48 2025: Socket received request to stop server.
+Fri Jan 31 20:50:48 2025: Dispatch Server: do_await_stop
+Fri Jan 31 20:50:48 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 20:50:48 2025: XCD main fifo: Stopping
+Fri Jan 31 20:50:48 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 20:50:48 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 20:50:48 2025: SERVER: destructor for server bound to port 42383
+Fri Jan 31 20:50:48 2025: XCD main fifo: Good unlink of /tmp/xcdmainf8214312-c695-4041-9ae5-5f782e368891
+Fri Jan 31 20:50:48 2025: Server exiting with status 0.
+Fri Jan 31 20:50:48 2025: Closing log file.
+Fri Jan 31 20:54:21 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 20:54:21 2025: Server was asked to start on port: '36925'
+Fri Jan 31 20:54:21 2025: Server is using token UUID: 'e3bf90c6-e0d2-43b4-8b87-203354acba21'
+Fri Jan 31 20:54:21 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 20:54:21 2025: Attempting to start server on port '36925'
+Fri Jan 31 20:54:21 2025: XCD main fifo: created main fifo '/tmp/xcdmaine3bf90c6-e0d2-43b4-8b87-203354acba21', fd read = 13
+Fri Jan 31 20:54:21 2025: Running Dispatch Server
+Fri Jan 31 20:54:21 2025: Version 2.2.0
+Fri Jan 31 20:54:21 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:54:21 2025: Starting Socket connection
+Fri Jan 31 20:54:21 2025: EXCHANGE_TOKEN received, server token: e3bf90c6-e0d2-43b4-8b87-203354acba21, passed token: e3bf90c6-e0d2-43b4-8b87-203354acba21
+Fri Jan 31 20:54:22 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 20:54:22 2025: SESSION_MGR: creating session with session uuid: 'd98de184-7c26-4fc6-a27c-20c28d6879e9' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:22 2025: KERNEL_SVC: creating session with uuid: 'd98de184-7c26-4fc6-a27c-20c28d6879e9' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:22 2025: GUIDANCE_SMGR: creating guidance session with uuid: 'd98de184-7c26-4fc6-a27c-20c28d6879e9' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:22 2025: SYSTEM_DIAGRAM: creating session with uuid: 'd98de184-7c26-4fc6-a27c-20c28d6879e9' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:29 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 20:54:29 2025: Starting Socket connection
+Fri Jan 31 20:54:57 2025: SESSION_MGR: closing session for UUID 'd98de184-7c26-4fc6-a27c-20c28d6879e9' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:57 2025: KERNEL_SVC: closing session for UUID 'd98de184-7c26-4fc6-a27c-20c28d6879e9' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:57 2025: GUIDANCE_SMGR: closing session for UUID 'd98de184-7c26-4fc6-a27c-20c28d6879e9' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:57 2025: SYSTEM_DIAGRAM: closing session for UUID 'd98de184-7c26-4fc6-a27c-20c28d6879e9' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 20:54:57 2025: STOP_SERVER received, server token: e3bf90c6-e0d2-43b4-8b87-203354acba21, passed token: e3bf90c6-e0d2-43b4-8b87-203354acba21
+Fri Jan 31 20:54:57 2025: Socket received request to stop server.
+Fri Jan 31 20:54:57 2025: Dispatch Server: do_await_stop
+Fri Jan 31 20:54:57 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 20:54:57 2025: XCD main fifo: Stopping
+Fri Jan 31 20:54:57 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 20:54:57 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 20:54:57 2025: SERVER: destructor for server bound to port 36925
+Fri Jan 31 20:54:57 2025: XCD main fifo: Good unlink of /tmp/xcdmaine3bf90c6-e0d2-43b4-8b87-203354acba21
+Fri Jan 31 20:54:57 2025: Server exiting with status 0.
+Fri Jan 31 20:54:57 2025: Closing log file.
+Fri Jan 31 22:01:06 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 22:01:06 2025: Server was asked to start on port: '44481'
+Fri Jan 31 22:01:06 2025: Server is using token UUID: '6441d891-e69d-47c7-aa5d-e6d3ebe4cda1'
+Fri Jan 31 22:01:06 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 22:01:06 2025: Attempting to start server on port '44481'
+Fri Jan 31 22:01:06 2025: XCD main fifo: created main fifo '/tmp/xcdmain6441d891-e69d-47c7-aa5d-e6d3ebe4cda1', fd read = 13
+Fri Jan 31 22:01:06 2025: Running Dispatch Server
+Fri Jan 31 22:01:06 2025: Version 2.2.0
+Fri Jan 31 22:01:07 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 22:01:07 2025: Starting Socket connection
+Fri Jan 31 22:01:07 2025: EXCHANGE_TOKEN received, server token: 6441d891-e69d-47c7-aa5d-e6d3ebe4cda1, passed token: 6441d891-e69d-47c7-aa5d-e6d3ebe4cda1
+Fri Jan 31 22:01:08 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 22:01:08 2025: SESSION_MGR: creating session with session uuid: '932c27a1-933e-4052-bb9e-cb060fc5bec7' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:08 2025: KERNEL_SVC: creating session with uuid: '932c27a1-933e-4052-bb9e-cb060fc5bec7' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:08 2025: GUIDANCE_SMGR: creating guidance session with uuid: '932c27a1-933e-4052-bb9e-cb060fc5bec7' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:08 2025: SYSTEM_DIAGRAM: creating session with uuid: '932c27a1-933e-4052-bb9e-cb060fc5bec7' and name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:16 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 22:01:16 2025: Starting Socket connection
+Fri Jan 31 22:01:52 2025: SESSION_MGR: closing session for UUID '932c27a1-933e-4052-bb9e-cb060fc5bec7' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:52 2025: KERNEL_SVC: closing session for UUID '932c27a1-933e-4052-bb9e-cb060fc5bec7' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:52 2025: GUIDANCE_SMGR: closing session for UUID '932c27a1-933e-4052-bb9e-cb060fc5bec7' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:52 2025: SYSTEM_DIAGRAM: closing session for UUID '932c27a1-933e-4052-bb9e-cb060fc5bec7' with name 'v++_compile_Lenet_HLS_Component'
+Fri Jan 31 22:01:52 2025: STOP_SERVER received, server token: 6441d891-e69d-47c7-aa5d-e6d3ebe4cda1, passed token: 6441d891-e69d-47c7-aa5d-e6d3ebe4cda1
+Fri Jan 31 22:01:52 2025: Socket received request to stop server.
+Fri Jan 31 22:01:52 2025: Dispatch Server: do_await_stop
+Fri Jan 31 22:01:52 2025: Dispatch Server: stopping mainFifo_
+Fri Jan 31 22:01:52 2025: XCD main fifo: Stopping
+Fri Jan 31 22:01:52 2025: XCD main fifo: do_read error code: Operation canceled
+Fri Jan 31 22:01:52 2025: XCD main fifo: bytes_transferred: 0
+Fri Jan 31 22:01:52 2025: SERVER: destructor for server bound to port 44481
+Fri Jan 31 22:01:52 2025: XCD main fifo: Good unlink of /tmp/xcdmain6441d891-e69d-47c7-aa5d-e6d3ebe4cda1
+Fri Jan 31 22:01:52 2025: Server exiting with status 0.
+Fri Jan 31 22:01:52 2025: Closing log file.
+Fri Jan 31 22:03:00 2025: Running xcd server. This server was built by gradle.
+Fri Jan 31 22:03:00 2025: Server was asked to start on port: '46345'
+Fri Jan 31 22:03:00 2025: Server is using token UUID: '34e2511f-6055-47dd-8e01-cb91e9102ef5'
+Fri Jan 31 22:03:00 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Jan 31 22:03:00 2025: Attempting to start server on port '46345'
+Fri Jan 31 22:03:00 2025: XCD main fifo: created main fifo '/tmp/xcdmain34e2511f-6055-47dd-8e01-cb91e9102ef5', fd read = 13
+Fri Jan 31 22:03:00 2025: Running Dispatch Server
+Fri Jan 31 22:03:00 2025: Version 2.2.0
+Fri Jan 31 22:03:00 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 22:03:00 2025: Starting Socket connection
+Fri Jan 31 22:03:00 2025: EXCHANGE_TOKEN received, server token: 34e2511f-6055-47dd-8e01-cb91e9102ef5, passed token: 34e2511f-6055-47dd-8e01-cb91e9102ef5
+Fri Jan 31 22:03:01 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Jan 31 22:03:01 2025: SESSION_MGR: creating session with session uuid: '2a35700d-0ea6-4e41-ba25-34adf13ffca6' and name 'vitis-run_compile_Lenet_HLS_Component'
+Fri Jan 31 22:03:01 2025: KERNEL_SVC: creating session with uuid: '2a35700d-0ea6-4e41-ba25-34adf13ffca6' and name 'vitis-run_compile_Lenet_HLS_Component'
+Fri Jan 31 22:03:01 2025: GUIDANCE_SMGR: creating guidance session with uuid: '2a35700d-0ea6-4e41-ba25-34adf13ffca6' and name 'vitis-run_compile_Lenet_HLS_Component'
+Fri Jan 31 22:03:01 2025: SYSTEM_DIAGRAM: creating session with uuid: '2a35700d-0ea6-4e41-ba25-34adf13ffca6' and name 'vitis-run_compile_Lenet_HLS_Component'
+Fri Jan 31 22:03:10 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 22:03:10 2025: Starting Socket connection
+Fri Jan 31 22:04:18 2025: Dispatch Server: Accepted socket connection from client
+Fri Jan 31 22:04:18 2025: Starting Socket connection
+Sat Feb  1 13:07:07 2025: Running xcd server. This server was built by gradle.
+Sat Feb  1 13:07:07 2025: Server was asked to start on port: '36481'
+Sat Feb  1 13:07:07 2025: Server is using token UUID: 'f2aef61b-f9cb-4c1e-8d54-4098d92e7efb'
+Sat Feb  1 13:07:07 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Sat Feb  1 13:07:07 2025: Attempting to start server on port '36481'
+Sat Feb  1 13:07:07 2025: XCD main fifo: created main fifo '/tmp/xcdmainf2aef61b-f9cb-4c1e-8d54-4098d92e7efb', fd read = 13
+Sat Feb  1 13:07:07 2025: Running Dispatch Server
+Sat Feb  1 13:07:07 2025: Version 2.2.0
+Sat Feb  1 13:07:07 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:07:07 2025: Starting Socket connection
+Sat Feb  1 13:07:07 2025: EXCHANGE_TOKEN received, server token: f2aef61b-f9cb-4c1e-8d54-4098d92e7efb, passed token: f2aef61b-f9cb-4c1e-8d54-4098d92e7efb
+Sat Feb  1 13:07:08 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Sat Feb  1 13:07:08 2025: SESSION_MGR: creating session with session uuid: '8f427f69-506d-4070-bb75-7f892d43bac6' and name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:07:08 2025: KERNEL_SVC: creating session with uuid: '8f427f69-506d-4070-bb75-7f892d43bac6' and name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:07:08 2025: GUIDANCE_SMGR: creating guidance session with uuid: '8f427f69-506d-4070-bb75-7f892d43bac6' and name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:07:08 2025: SYSTEM_DIAGRAM: creating session with uuid: '8f427f69-506d-4070-bb75-7f892d43bac6' and name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:07:18 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:07:18 2025: Starting Socket connection
+Sat Feb  1 13:08:02 2025: SESSION_MGR: closing session for UUID '8f427f69-506d-4070-bb75-7f892d43bac6' with name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:02 2025: KERNEL_SVC: closing session for UUID '8f427f69-506d-4070-bb75-7f892d43bac6' with name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:02 2025: GUIDANCE_SMGR: closing session for UUID '8f427f69-506d-4070-bb75-7f892d43bac6' with name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:02 2025: SYSTEM_DIAGRAM: closing session for UUID '8f427f69-506d-4070-bb75-7f892d43bac6' with name 'v++_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:02 2025: STOP_SERVER received, server token: f2aef61b-f9cb-4c1e-8d54-4098d92e7efb, passed token: f2aef61b-f9cb-4c1e-8d54-4098d92e7efb
+Sat Feb  1 13:08:02 2025: Socket received request to stop server.
+Sat Feb  1 13:08:02 2025: Dispatch Server: do_await_stop
+Sat Feb  1 13:08:02 2025: Dispatch Server: stopping mainFifo_
+Sat Feb  1 13:08:02 2025: XCD main fifo: Stopping
+Sat Feb  1 13:08:02 2025: XCD main fifo: do_read error code: Operation canceled
+Sat Feb  1 13:08:02 2025: XCD main fifo: bytes_transferred: 0
+Sat Feb  1 13:08:02 2025: SERVER: destructor for server bound to port 36481
+Sat Feb  1 13:08:02 2025: XCD main fifo: Good unlink of /tmp/xcdmainf2aef61b-f9cb-4c1e-8d54-4098d92e7efb
+Sat Feb  1 13:08:02 2025: Server exiting with status 0.
+Sat Feb  1 13:08:02 2025: Closing log file.
+Sat Feb  1 13:08:14 2025: Running xcd server. This server was built by gradle.
+Sat Feb  1 13:08:14 2025: Server was asked to start on port: '39861'
+Sat Feb  1 13:08:14 2025: Server is using token UUID: '2afafa21-0e71-4f22-8405-596679d59121'
+Sat Feb  1 13:08:14 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Sat Feb  1 13:08:14 2025: Attempting to start server on port '39861'
+Sat Feb  1 13:08:14 2025: XCD main fifo: created main fifo '/tmp/xcdmain2afafa21-0e71-4f22-8405-596679d59121', fd read = 13
+Sat Feb  1 13:08:14 2025: Running Dispatch Server
+Sat Feb  1 13:08:14 2025: Version 2.2.0
+Sat Feb  1 13:08:14 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:08:14 2025: Starting Socket connection
+Sat Feb  1 13:08:14 2025: EXCHANGE_TOKEN received, server token: 2afafa21-0e71-4f22-8405-596679d59121, passed token: 2afafa21-0e71-4f22-8405-596679d59121
+Sat Feb  1 13:08:15 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Sat Feb  1 13:08:15 2025: SESSION_MGR: creating session with session uuid: '8f240162-36cd-40f4-ba29-fcd4eedf7950' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:15 2025: KERNEL_SVC: creating session with uuid: '8f240162-36cd-40f4-ba29-fcd4eedf7950' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:15 2025: GUIDANCE_SMGR: creating guidance session with uuid: '8f240162-36cd-40f4-ba29-fcd4eedf7950' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:15 2025: SYSTEM_DIAGRAM: creating session with uuid: '8f240162-36cd-40f4-ba29-fcd4eedf7950' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:08:25 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:08:25 2025: Starting Socket connection
+Sat Feb  1 13:09:46 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:09:46 2025: Starting Socket connection
+Sat Feb  1 13:13:21 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:13:21 2025: Starting Socket connection
+Sat Feb  1 13:16:57 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:16:57 2025: Starting Socket connection
+Sat Feb  1 13:33:46 2025: Dispatch Server: do_await_stop
+Sat Feb  1 13:36:55 2025: Running xcd server. This server was built by gradle.
+Sat Feb  1 13:36:55 2025: Server was asked to start on port: '45685'
+Sat Feb  1 13:36:55 2025: Server is using token UUID: '331e9ddf-cded-420a-8a07-0728683c659e'
+Sat Feb  1 13:36:55 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Sat Feb  1 13:36:55 2025: Attempting to start server on port '45685'
+Sat Feb  1 13:36:55 2025: XCD main fifo: created main fifo '/tmp/xcdmain331e9ddf-cded-420a-8a07-0728683c659e', fd read = 13
+Sat Feb  1 13:36:55 2025: Running Dispatch Server
+Sat Feb  1 13:36:55 2025: Version 2.2.0
+Sat Feb  1 13:36:55 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:36:55 2025: Starting Socket connection
+Sat Feb  1 13:36:55 2025: EXCHANGE_TOKEN received, server token: 331e9ddf-cded-420a-8a07-0728683c659e, passed token: 331e9ddf-cded-420a-8a07-0728683c659e
+Sat Feb  1 13:36:56 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Sat Feb  1 13:36:56 2025: SESSION_MGR: creating session with session uuid: '75c717a2-55ec-44b0-a682-c169fd22e18a' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:36:56 2025: KERNEL_SVC: creating session with uuid: '75c717a2-55ec-44b0-a682-c169fd22e18a' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:36:56 2025: GUIDANCE_SMGR: creating guidance session with uuid: '75c717a2-55ec-44b0-a682-c169fd22e18a' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:36:56 2025: SYSTEM_DIAGRAM: creating session with uuid: '75c717a2-55ec-44b0-a682-c169fd22e18a' and name 'vitis-run_compile_Lenet_HLS_Component'
+Sat Feb  1 13:37:03 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:37:03 2025: Starting Socket connection
+Sat Feb  1 13:38:00 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:38:00 2025: Starting Socket connection
+Sat Feb  1 13:40:31 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:40:31 2025: Starting Socket connection
+Sat Feb  1 13:43:06 2025: Dispatch Server: Accepted socket connection from client
+Sat Feb  1 13:43:06 2025: Starting Socket connection

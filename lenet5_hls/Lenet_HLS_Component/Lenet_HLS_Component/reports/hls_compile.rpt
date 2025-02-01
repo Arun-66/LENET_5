@@ -1,0 +1,248 @@
+
+
+================================================================
+== Synthesis Summary Report of 'lenet5'
+================================================================
++ General Information: 
+    * Date:           Sat Feb  1 13:08:00 2025
+    * Version:        2024.2 (Build 5238294 on Nov  8 2024)
+    * Project:        Lenet_HLS_Component
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu7ev-ffvc1156-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------------------------------------------------------+------+------+---------+-----------+----------+---------+-------+----------+---------+---------+------------+------------+-----+
+    |                               Modules                              | Issue|      | Latency |  Latency  | Iteration|         |  Trip |          |         |         |            |            |     |
+    |                               & Loops                              | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count | Pipelined|  BRAM   |   DSP   |     FF     |     LUT    | URAM|
+    +--------------------------------------------------------------------+------+------+---------+-----------+----------+---------+-------+----------+---------+---------+------------+------------+-----+
+    |+ lenet5                                                            |     -|  0.24|    25381|  2.538e+05|         -|    25382|      -|        no|  24 (3%)|  39 (2%)|   5491 (1%)|   5421 (2%)|    -|
+    | + CONVOLUTION_LAYER_1                                              |     -|  0.24|    25380|  2.538e+05|         -|    25380|      -|        no|  24 (3%)|  39 (2%)|   5488 (1%)|   5407 (2%)|    -|
+    |  + CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3          |     -|  3.68|     1026|  1.026e+04|         -|     1026|      -|        no|        -|        -|    36 (~0%)|   180 (~0%)|    -|
+    |   o copy_input_2_copy_input_3                                      |     -|  7.30|     1024|  1.024e+04|         2|        1|   1024|       yes|        -|        -|           -|           -|    -|
+    |  + CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL                |     -|  0.28|    19610|  1.961e+05|         -|    19610|      -|        no|        -|  21 (1%)|  3418 (~0%)|   2490 (1%)|    -|
+    |   o ROW_K_COL_K_ROW_COL                                            |     -|  7.30|    19608|  1.961e+05|        10|        1|  19600|       yes|        -|        -|           -|           -|    -|
+    |  + CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3  |     -|  0.24|     4739|  4.739e+04|         -|     4739|      -|        no|  10 (1%)|  9 (~0%)|  1216 (~0%)|  1442 (~0%)|    -|
+    |   o VITIS_LOOP_101_2_VITIS_LOOP_102_3                              |     -|  7.30|     4737|  4.737e+04|        35|        1|   4704|       yes|        -|        -|           -|           -|    -|
+    +--------------------------------------------------------------------+------+------+---------+-----------+----------+---------+-------+----------+---------+---------+------------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++----------------------+-----------+----------+
+| Port                 | Direction | Bitwidth |
++----------------------+-----------+----------+
+| input_layer_address0 | out       | 10       |
+| input_layer_q0       | in        | 32       |
++----------------------+-----------+----------+
+
+* Other Ports
++----------+---------+-----------+----------+
+| Port     | Mode    | Direction | Bitwidth |
++----------+---------+-----------+----------+
+| output_r | ap_none | in        | 32       |
++----------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-------------+-----------+---------------+
+| Argument    | Direction | Datatype      |
++-------------+-----------+---------------+
+| input_layer | in        | float const * |
+| output      | unused    | float*        |
++-------------+-----------+---------------+
+
+* SW-to-HW Mapping
++-------------+----------------------+---------+----------+
+| Argument    | HW Interface         | HW Type | HW Usage |
++-------------+----------------------+---------+----------+
+| input_layer | input_layer_address0 | port    | offset   |
+| input_layer | input_layer_ce0      | port    |          |
+| input_layer | input_layer_q0       | port    |          |
+| output      | output_r             | port    |          |
++-------------+----------------------+---------+----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------------------------------------+-----+--------+------------------------------+-----------+--------------------------+---------+
+| Name                                                               | DSP | Pragma | Variable                     | Op        | Impl                     | Latency |
++--------------------------------------------------------------------+-----+--------+------------------------------+-----------+--------------------------+---------+
+| + lenet5                                                           | 39  |        |                              |           |                          |         |
+|  + CONVOLUTION_LAYER_1                                             | 39  |        |                              |           |                          |         |
+|   + CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3         | 0   |        |                              |           |                          |         |
+|     icmp_ln36_fu_100_p2                                            |     |        | icmp_ln36                    | seteq     | auto                     | 0       |
+|     add_ln36_1_fu_106_p2                                           |     |        | add_ln36_1                   | add       | fabric                   | 0       |
+|     add_ln36_fu_118_p2                                             |     |        | add_ln36                     | add       | fabric                   | 0       |
+|     icmp_ln38_fu_124_p2                                            |     |        | icmp_ln38                    | seteq     | auto                     | 0       |
+|     select_ln36_fu_130_p3                                          |     |        | select_ln36                  | select    | auto_sel                 | 0       |
+|     select_ln36_1_fu_138_p3                                        |     |        | select_ln36_1                | select    | auto_sel                 | 0       |
+|     add_ln40_fu_162_p2                                             |     |        | add_ln40                     | add       | fabric                   | 0       |
+|     add_ln38_fu_173_p2                                             |     |        | add_ln38                     | add       | fabric                   | 0       |
+|   + CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL               | 21  |        |                              |           |                          |         |
+|     icmp_ln73_fu_397_p2                                            |     |        | icmp_ln73                    | seteq     | auto                     | 0       |
+|     add_ln73_1_fu_403_p2                                           |     |        | add_ln73_1                   | add       | fabric                   | 0       |
+|     add_ln73_fu_427_p2                                             |     |        | add_ln73                     | add       | fabric                   | 0       |
+|     icmp_ln75_fu_433_p2                                            |     |        | icmp_ln75                    | seteq     | auto                     | 0       |
+|     select_ln73_fu_439_p3                                          |     |        | select_ln73                  | select    | auto_sel                 | 0       |
+|     xor_ln73_fu_447_p2                                             |     |        | xor_ln73                     | xor       | auto                     | 0       |
+|     icmp_ln79_fu_453_p2                                            |     |        | icmp_ln79                    | seteq     | auto                     | 0       |
+|     and_ln73_fu_459_p2                                             |     |        | and_ln73                     | and       | auto                     | 0       |
+|     icmp_ln77_fu_465_p2                                            |     |        | icmp_ln77                    | seteq     | auto                     | 0       |
+|     and_ln73_1_fu_471_p2                                           |     |        | and_ln73_1                   | and       | auto                     | 0       |
+|     select_ln73_1_fu_477_p3                                        |     |        | select_ln73_1                | select    | auto_sel                 | 0       |
+|     add_ln75_fu_485_p2                                             |     |        | add_ln75                     | add       | fabric                   | 0       |
+|     empty_fu_491_p2                                                |     |        | empty                        | or        | auto                     | 0       |
+|     row_mid213_fu_497_p3                                           |     |        | row_mid213                   | select    | auto_sel                 | 0       |
+|     exitcond_flatten8_not_fu_505_p2                                |     |        | exitcond_flatten8_not        | xor       | auto                     | 0       |
+|     not_exitcond_flatten8_mid241_fu_511_p2                         |     |        | not_exitcond_flatten8_mid241 | or        | auto                     | 0       |
+|     icmp_ln79_mid218_fu_517_p2                                     |     |        | icmp_ln79_mid218             | and       | auto                     | 0       |
+|     select_ln75_fu_523_p3                                          |     |        | select_ln75                  | select    | auto_sel                 | 0       |
+|     add_ln77_fu_531_p2                                             |     |        | add_ln77                     | add       | fabric                   | 0       |
+|     empty_23_fu_537_p2                                             |     |        | empty_23                     | or        | auto                     | 0       |
+|     empty_24_fu_543_p2                                             |     |        | empty_24                     | or        | auto                     | 0       |
+|     col_mid2_fu_549_p3                                             |     |        | col_mid2                     | select    | auto_sel                 | 0       |
+|     select_ln77_fu_557_p3                                          |     |        | select_ln77                  | select    | auto_sel                 | 0       |
+|     empty_26_fu_607_p2                                             |     |        | empty_26                     | or        | auto                     | 0       |
+|     empty_27_fu_613_p2                                             |     |        | empty_27                     | seteq     | auto                     | 0       |
+|     empty_28_fu_619_p2                                             |     |        | empty_28                     | add       | fabric                   | 0       |
+|     add_ln81_fu_625_p2                                             |     |        | add_ln81                     | add       | fabric                   | 0       |
+|     fmul_32ns_32ns_32_3_max_dsp_1_U10                              | 3   |        | mul110_1                     | fmul      | maxdsp                   | 2       |
+|     fmul_32ns_32ns_32_3_max_dsp_1_U11                              | 3   |        | mul110_2                     | fmul      | maxdsp                   | 2       |
+|     fmul_32ns_32ns_32_3_max_dsp_1_U12                              | 3   |        | mul110_3                     | fmul      | maxdsp                   | 2       |
+|     fmul_32ns_32ns_32_3_max_dsp_1_U13                              | 3   |        | mul110_4                     | fmul      | maxdsp                   | 2       |
+|     fmul_32ns_32ns_32_3_max_dsp_1_U14                              | 3   |        | mul110_5                     | fmul      | maxdsp                   | 2       |
+|     fadd_32ns_32ns_32_4_full_dsp_1_U6                              | 2   |        | add136_3                     | fadd      | fulldsp                  | 3       |
+|     fadd_32ns_32ns_32_4_full_dsp_1_U7                              | 2   |        | add136_4                     | fadd      | fulldsp                  | 3       |
+|     fadd_32ns_32ns_32_4_full_dsp_1_U8                              | 2   |        | add136_5                     | fadd      | fulldsp                  | 3       |
+|     storemerge75105_fu_756_p3                                      |     |        | storemerge75105              | select    | auto_sel                 | 0       |
+|     storemerge738789103_fu_762_p3                                  |     |        | storemerge738789103          | select    | auto_sel                 | 0       |
+|     storemerge77798591101_fu_768_p3                                |     |        | storemerge77798591101        | select    | auto_sel                 | 0       |
+|     storemerge7281839399_fu_774_p3                                 |     |        | storemerge7281839399         | select    | auto_sel                 | 0       |
+|     storemerge749597_fu_780_p3                                     |     |        | storemerge749597             | select    | auto_sel                 | 0       |
+|     storemerge76_fu_786_p3                                         |     |        | storemerge76                 | select    | auto_sel                 | 0       |
+|     add_ln79_fu_644_p2                                             |     |        | add_ln79                     | add       | fabric                   | 0       |
+|     add_ln77_1_fu_650_p2                                           |     |        | add_ln77_1                   | add       | fabric                   | 0       |
+|     select_ln77_1_fu_656_p3                                        |     |        | select_ln77_1                | select    | auto_sel                 | 0       |
+|     add_ln75_1_fu_664_p2                                           |     |        | add_ln75_1                   | add       | fabric                   | 0       |
+|     select_ln75_1_fu_670_p3                                        |     |        | select_ln75_1                | select    | auto_sel                 | 0       |
+|   + CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3 | 9   |        |                              |           |                          |         |
+|     icmp_ln101_fu_301_p2                                           |     |        | icmp_ln101                   | seteq     | auto                     | 0       |
+|     add_ln101_1_fu_307_p2                                          |     |        | add_ln101_1                  | add       | fabric                   | 0       |
+|     add_ln101_fu_359_p2                                            |     |        | add_ln101                    | add       | fabric                   | 0       |
+|     icmp_ln102_fu_316_p2                                           |     |        | icmp_ln102                   | seteq     | auto                     | 0       |
+|     select_ln101_fu_322_p3                                         |     |        | select_ln101                 | select    | auto_sel                 | 0       |
+|     select_ln101_1_fu_365_p3                                       |     |        | select_ln101_1               | select    | auto_sel                 | 0       |
+|     sparsemux_13_3_32_1_1_U31                                      |     |        | tmp                          | sparsemux | compactencoding_dontcare | 0       |
+|     fexp_32ns_32ns_32_8_full_dsp_1_U30                             | 7   |        | tmp_s                        | fexp      | fulldsp                  | 7       |
+|     fdiv_32ns_32ns_32_9_no_dsp_1_U29                               |     |        | div_i                        | fdiv      | fabric                   | 8       |
+|     grp_fu_425_p0                                                  |     |        | add_ln104                    | add       | fabric                   | 0       |
+|     mac_muladd_10ns_3ns_10ns_13_4_1_U34                            | 1   |        | mul_ln104                    | mul       | dsp_slice                | 3       |
+|     mac_muladd_10ns_3ns_10ns_13_4_1_U34                            | 1   |        | add_ln104_1                  | add       | dsp_slice                | 3       |
+|     mul_13ns_15ns_27_1_1_U33                                       | 1   |        | mul_ln104_1                  | mul       | auto                     | 0       |
+|     urem_10ns_4ns_3_14_1_U32                                       |     |        | urem_ln104                   | urem      | auto                     | 13      |
+|     add_ln102_fu_340_p2                                            |     |        | add_ln102                    | add       | fabric                   | 0       |
++--------------------------------------------------------------------+-----+--------+------------------------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++--------------------------------------------------------------------+--------------+------+------+------+--------+----------------------+------+---------+------------------+
+| Name                                                               | Usage        | Type | BRAM | URAM | Pragma | Variable             | Impl | Latency | Bitwidth, Depth, |
+|                                                                    |              |      |      |      |        |                      |      |         | Banks            |
++--------------------------------------------------------------------+--------------+------+------+------+--------+----------------------+------+---------+------------------+
+| + lenet5                                                           |              |      | 24   | 0    |        |                      |      |         |                  |
+|  + CONVOLUTION_LAYER_1                                             |              |      | 24   | 0    |        |                      |      |         |                  |
+|    IBRAM_U                                                         | ram_1p array |      | 2    |      |        | IBRAM                | auto | 1       | 32, 1024, 1      |
+|    OBRAM_U                                                         | ram_2p array |      | 2    |      |        | OBRAM                | auto | 1       | 32, 784, 1       |
+|    OBRAM_1_U                                                       | ram_2p array |      | 2    |      |        | OBRAM_1              | auto | 1       | 32, 784, 1       |
+|    OBRAM_2_U                                                       | ram_2p array |      | 2    |      |        | OBRAM_2              | auto | 1       | 32, 784, 1       |
+|    OBRAM_3_U                                                       | ram_2p array |      | 2    |      |        | OBRAM_3              | auto | 1       | 32, 784, 1       |
+|    OBRAM_4_U                                                       | ram_2p array |      | 2    |      |        | OBRAM_4              | auto | 1       | 32, 784, 1       |
+|    OBRAM_5_U                                                       | ram_2p array |      | 2    |      |        | OBRAM_5              | auto | 1       | 32, 784, 1       |
+|   + CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL               |              |      | 0    | 0    |        |                      |      |         |                  |
+|     WBRAM_5_U                                                      | ram_1p array |      |      |      |        | WBRAM_5              | auto | 1       | 32, 25, 1        |
+|     WBRAM_4_U                                                      | ram_1p array |      |      |      |        | WBRAM_4              | auto | 1       | 32, 25, 1        |
+|     WBRAM_3_U                                                      | ram_1p array |      |      |      |        | WBRAM_3              | auto | 1       | 32, 25, 1        |
+|     WBRAM_2_U                                                      | ram_1p array |      |      |      |        | WBRAM_2              | auto | 1       | 32, 25, 1        |
+|     WBRAM_1_U                                                      | ram_1p array |      |      |      |        | WBRAM_1              | auto | 1       | 32, 25, 1        |
+|     WBRAM_U                                                        | ram_1p array |      |      |      |        | WBRAM                | auto | 1       | 32, 25, 1        |
+|   + CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3 |              |      | 10   | 0    |        |                      |      |         |                  |
+|     hconv1_local_local_U                                           | ram_1p array |      | 2    |      |        | hconv1_local_local   | auto | 1       | 32, 941, 1       |
+|     hconv1_1_local_local_U                                         | ram_1p array |      | 2    |      |        | hconv1_1_local_local | auto | 1       | 32, 941, 1       |
+|     hconv1_2_local_local_U                                         | ram_1p array |      | 2    |      |        | hconv1_2_local_local | auto | 1       | 32, 941, 1       |
+|     hconv1_3_local_local_U                                         | ram_1p array |      | 2    |      |        | hconv1_3_local_local | auto | 1       | 32, 941, 1       |
+|     hconv1_4_local_local_U                                         | ram_1p array |      | 2    |      |        | hconv1_4_local_local | auto | 1       | 32, 941, 1       |
++--------------------------------------------------------------------+--------------+------+------+------+--------+----------------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+--------------------------------------------+--------------------------------------------------------------------------------+
+| Type            | Options                                    | Location                                                                       |
++-----------------+--------------------------------------------+--------------------------------------------------------------------------------+
+| array_partition | variable=WBRAM complete dim=1              | ../lenet5/hw_layers/image_convolution.cpp:29 in convolution_layer_1, WBRAM     |
+| array_partition | variable=biasBRAM complete dim=0           | ../lenet5/hw_layers/image_convolution.cpp:30 in convolution_layer_1, biasBRAM  |
+| array_partition | variable=OBRAM complete dim=2              | ../lenet5/hw_layers/image_convolution.cpp:31 in convolution_layer_1, OBRAM     |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:39 in convolution_layer_1            |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:52 in convolution_layer_1            |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:61 in convolution_layer_1            |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:80 in convolution_layer_1            |
+| array_partition | variable=mult complete dim=0               | ../lenet5/hw_layers/image_convolution.cpp:83 in convolution_layer_1, mult      |
+| unroll          |                                            | ../lenet5/hw_layers/image_convolution.cpp:86 in convolution_layer_1            |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:103 in convolution_layer_1           |
+| array_partition | variable=IBRAM complete dim=2              | ../lenet5/hw_layers/image_convolution.cpp:126 in convolution_layer_2, IBRAM    |
+| array_partition | variable=WBRAM complete dim=2              | ../lenet5/hw_layers/image_convolution.cpp:127 in convolution_layer_2, WBRAM    |
+| array_partition | variable=WBRAM cyclic factor=C2_N_PE dim=1 | ../lenet5/hw_layers/image_convolution.cpp:128 in convolution_layer_2, WBRAM    |
+| array_partition | variable=biasBRAM complete dim=0           | ../lenet5/hw_layers/image_convolution.cpp:129 in convolution_layer_2, biasBRAM |
+| array_partition | variable=OBRAM cyclic factor=C2_N_PE dim=2 | ../lenet5/hw_layers/image_convolution.cpp:130 in convolution_layer_2, OBRAM    |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:143 in convolution_layer_2           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:162 in convolution_layer_2           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:173 in convolution_layer_2           |
+| unroll          | factor=C2_N_PE                             | ../lenet5/hw_layers/image_convolution.cpp:195 in convolution_layer_2           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:196 in convolution_layer_2           |
+| array_partition | variable=mult complete dim=0               | ../lenet5/hw_layers/image_convolution.cpp:198 in convolution_layer_2, mult     |
+| unroll          |                                            | ../lenet5/hw_layers/image_convolution.cpp:202 in convolution_layer_2           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:228 in convolution_layer_2           |
+| array_partition | variable=IBRAM complete dim=2              | ../lenet5/hw_layers/image_convolution.cpp:249 in convolution_layer_3, IBRAM    |
+| array_partition | variable=WBRAM complete dim=2              | ../lenet5/hw_layers/image_convolution.cpp:250 in convolution_layer_3, WBRAM    |
+| pipeline        |                                            | ../lenet5/hw_layers/image_convolution.cpp:265 in convolution_layer_3           |
+| pipeline        |                                            | ../lenet5/hw_layers/image_convolution.cpp:278 in convolution_layer_3           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:287 in convolution_layer_3           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:298 in convolution_layer_3           |
+| array_partition | variable=mult complete dim=0               | ../lenet5/hw_layers/image_convolution.cpp:300 in convolution_layer_3, mult     |
+| array_partition | variable=acc complete dim=0                | ../lenet5/hw_layers/image_convolution.cpp:302 in convolution_layer_3, acc      |
+| unroll          |                                            | ../lenet5/hw_layers/image_convolution.cpp:306 in convolution_layer_3           |
+| unroll          |                                            | ../lenet5/hw_layers/image_convolution.cpp:310 in convolution_layer_3           |
+| pipeline        | II=1                                       | ../lenet5/hw_layers/image_convolution.cpp:325 in convolution_layer_3           |
++-----------------+--------------------------------------------+--------------------------------------------------------------------------------+
+
+* Inferred Pragmas
++---------------------------------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------+
+| Source                                                  | Inferred Pragma | Options                                     | Location                                                  |
++---------------------------------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------+
+| pipeline  ../lenet5/hw_layers/image_convolution.cpp:196 | array_partition | dim=1 type=cyclic factor=7 variable=_ZL3tbl | variable tbl in lenet5 ../lenet5/hw_layers/../common.h:58 |
++---------------------------------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------+
+
+

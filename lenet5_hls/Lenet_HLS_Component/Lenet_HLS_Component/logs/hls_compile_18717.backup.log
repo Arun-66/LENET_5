@@ -1,0 +1,51 @@
+INFO: [HLS 200-2005] Using work_dir /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' see [hls] from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+WARNING: [HLS 200-40] Cannot find design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h'
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/common.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/common.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Lenet.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=lenet5.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/lenet5.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=lenet5' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu7ev-ffvc1156-2-e' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu7ev-ffvc1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(5)
+WARNING: [HLS 200-40] Cannot find source file ../lenet5/hw_layers/image_pool.h; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 5.41 seconds. CPU system time: 0.57 seconds. Elapsed time: 5.71 seconds; current allocated memory: 326.809 MB.
+INFO: [HLS 200-10] Analyzing design file 'Lenet.cpp' ... 
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:10:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:11:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:12:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:18:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:19:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:20:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:27:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:28:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:29:9)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/image_pool.cpp' ... 
+ERROR: [HLS 207-1276] expected parameter declarator (../lenet5/hw_layers/image_pool.cpp:45:30)
+ERROR:  
+INFO: [HLS 200-112] Total CPU user time: 10.33 seconds. Total CPU system time: 1.91 seconds. Total elapsed time: 11.97 seconds; peak allocated memory: 328.789 MB.

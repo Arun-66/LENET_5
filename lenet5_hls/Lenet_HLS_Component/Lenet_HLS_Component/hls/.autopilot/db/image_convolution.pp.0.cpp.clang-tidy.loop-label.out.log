@@ -1,0 +1,80 @@
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10071:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10071:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10085:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10085:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10099:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:10099:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:11733:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:11733:7: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13593:5: warning: Added loop label VITIS_LOOP_51_1:   [xilinx-label-all-loops]
+    for(int k=0;k<5;k++){
+    ^~~
+    VITIS_LOOP_51_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13593:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13643:3: warning: Added loop label VITIS_LOOP_101_2:   [xilinx-label-all-loops]
+  for(int j=0;j<6;j++){
+  ^~~
+  VITIS_LOOP_101_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13643:3: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13644:4: warning: Added loop label VITIS_LOOP_102_3:   [xilinx-label-all-loops]
+   for(int k=0;k<28*28;k++){
+   ^~~
+   VITIS_LOOP_102_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13644:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13767:3: warning: Added loop label VITIS_LOOP_225_1:   [xilinx-label-all-loops]
+  for(int j=0;j<16;j++){
+  ^~~
+  VITIS_LOOP_225_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13767:3: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13769:4: warning: Added loop label VITIS_LOOP_227_2:   [xilinx-label-all-loops]
+   for(int k=0;k<100;k++){
+   ^~~
+   VITIS_LOOP_227_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13769:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13806:5: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+    for(int k=0;k<5;k++){
+    ^~~
+    VITIS_LOOP_264_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13806:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13817:4: warning: Added loop label VITIS_LOOP_275_2:   [xilinx-label-all-loops]
+   for(int j=0;j<16; j++){
+   ^~~
+   VITIS_LOOP_275_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13817:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13818:5: warning: Added loop label VITIS_LOOP_276_3:   [xilinx-label-all-loops]
+    for(int k=0;k<25; k++){
+    ^~~
+    VITIS_LOOP_276_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13818:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13837:4: warning: Added loop label VITIS_LOOP_295_4:   [xilinx-label-all-loops]
+   for(int col_k=0;col_k<5;col_k++){
+   ^~~
+   VITIS_LOOP_295_4: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13837:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13851:6: warning: Added loop label VITIS_LOOP_309_5:   [xilinx-label-all-loops]
+     for(int i=0,ii=0;i<4;i++,ii+=4){
+     ^~~
+     VITIS_LOOP_309_5: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13851:6: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13865:2: warning: Added loop label VITIS_LOOP_323_6:   [xilinx-label-all-loops]
+ for(int i=0;i<1;i++){
+ ^~~
+ VITIS_LOOP_323_6: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13865:2: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13866:3: warning: Added loop label VITIS_LOOP_324_7:   [xilinx-label-all-loops]
+  for(int j=0;j<120;j++)
+  ^~~
+  VITIS_LOOP_324_7: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_convolution.pp.0.cpp:13866:3: note: FIX-IT applied suggested code changes

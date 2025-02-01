@@ -1,0 +1,255 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>10.000</TargetClockPeriod>
+  <AchievedClockPeriod>4.020</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>4.020</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>4.020</CP_SYNTH>
+  <CP_TARGET>10.000</CP_TARGET>
+  <SLACK_FINAL>5.980</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>5.980</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>5.980</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>5.980</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>14</BRAM>
+    <CLB>0</CLB>
+    <DSP>37</DSP>
+    <FF>3083</FF>
+    <LATCH>12</LATCH>
+    <LUT>4677</LUT>
+    <SRL>260</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>624</BRAM>
+    <CLB>0</CLB>
+    <DSP>1728</DSP>
+    <FF>460800</FF>
+    <LUT>230400</LUT>
+    <URAM>96</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="lenet5" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="1">grp_CONVOLUTION_LAYER_1_fu_24</SubModules>
+    <Resources BRAM="14" DSP="37" FF="3083" LUT="4677" LogicLUT="4417" RAMB36="7" SRL="260"/>
+    <LocalResources FF="3" LUT="1" LogicLUT="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24" DEPTH="1" FILE_NAME="lenet5.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1">
+    <SubModules count="14">IBRAM_U OBRAM_1_U OBRAM_2_U OBRAM_3_U OBRAM_4_U OBRAM_5_U OBRAM_U fadd_32ns_32ns_32_4_full_dsp_1_U48 fadd_32ns_32ns_32_4_full_dsp_1_U49 fadd_32ns_32ns_32_4_full_dsp_1_U50 fmul_32ns_32ns_32_3_max_dsp_1_U51 grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56 grp_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_fu_67 grp_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3_fu_48</SubModules>
+    <Resources BRAM="14" DSP="37" FF="3080" LUT="4676" LogicLUT="4416" RAMB36="7" SRL="260"/>
+    <LocalResources FF="12"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/IBRAM_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_IBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_1_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_2_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_3_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_4_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_5_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/OBRAM_U" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/fadd_32ns_32ns_32_4_full_dsp_1_U48" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="235" LUT="258" LogicLUT="258"/>
+    <LocalResources FF="96"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/fadd_32ns_32ns_32_4_full_dsp_1_U49" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="235" LUT="258" LogicLUT="258"/>
+    <LocalResources FF="96"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/fadd_32ns_32ns_32_4_full_dsp_1_U50" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="235" LUT="258" LogicLUT="258"/>
+    <LocalResources FF="96"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/fmul_32ns_32ns_32_3_max_dsp_1_U51" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="98" LUT="173" LogicLUT="173"/>
+    <LocalResources FF="65" LUT="32" LogicLUT="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL">
+    <SubModules count="9">fadd_32ns_32ns_32_4_full_dsp_1_U6 fadd_32ns_32ns_32_4_full_dsp_1_U7 fadd_32ns_32ns_32_4_full_dsp_1_U8 flow_control_loop_pipe_sequential_init_U fmul_32ns_32ns_32_3_max_dsp_1_U10 fmul_32ns_32ns_32_3_max_dsp_1_U11 fmul_32ns_32ns_32_3_max_dsp_1_U12 fmul_32ns_32ns_32_3_max_dsp_1_U13 fmul_32ns_32ns_32_3_max_dsp_1_U14</SubModules>
+    <Resources DSP="21" FF="1472" LUT="1877" LogicLUT="1663" SRL="214"/>
+    <LocalResources FF="504" LUT="409" LogicLUT="195" SRL="214"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fadd_32ns_32ns_32_4_full_dsp_1_U6" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="203" LUT="242" LogicLUT="242"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fadd_32ns_32ns_32_4_full_dsp_1_U7" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="203" LUT="242" LogicLUT="242"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fadd_32ns_32ns_32_4_full_dsp_1_U8" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fadd_32ns_32ns_32_4_full_dsp_1">
+    <Resources DSP="2" FF="203" LUT="242" LogicLUT="242"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/flow_control_loop_pipe_sequential_init_U" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="5" LogicLUT="5"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="97" LUT="157" LogicLUT="157"/>
+    <LocalResources FF="64" LUT="16" LogicLUT="16"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="65" LUT="157" LogicLUT="157"/>
+    <LocalResources FF="32" LUT="16" LogicLUT="16"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="65" LUT="141" LogicLUT="141"/>
+    <LocalResources FF="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="65" LUT="141" LogicLUT="141"/>
+    <LocalResources FF="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL.v" ORIG_REF_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1">
+    <Resources DSP="3" FF="65" LUT="141" LogicLUT="141"/>
+    <LocalResources FF="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_fu_67" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3">
+    <SubModules count="3">fdiv_32ns_32ns_32_9_no_dsp_1_U29 fexp_32ns_32ns_32_8_full_dsp_1_U30 flow_control_loop_pipe_sequential_init_U</SubModules>
+    <Resources DSP="7" FF="758" LUT="1812" LogicLUT="1766" SRL="46"/>
+    <LocalResources FF="189" LUT="149" LogicLUT="116" SRL="33"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_fu_67/fdiv_32ns_32ns_32_9_no_dsp_1_U29" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3.v" ORIG_REF_NAME="lenet5_fdiv_32ns_32ns_32_9_no_dsp_1">
+    <Resources FF="293" LUT="678" LogicLUT="678"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_fu_67/fexp_32ns_32ns_32_8_full_dsp_1_U30" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3.v" ORIG_REF_NAME="lenet5_fexp_32ns_32ns_32_8_full_dsp_1">
+    <Resources DSP="7" FF="274" LUT="893" LogicLUT="880" SRL="13"/>
+    <LocalResources FF="64" LUT="16" LogicLUT="16"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_fu_67/flow_control_loop_pipe_sequential_init_U" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3.v" ORIG_REF_NAME="lenet5_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="92" LogicLUT="92"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3_fu_48" DEPTH="2" FILE_NAME="lenet5_CONVOLUTION_LAYER_1.v" ORIG_REF_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3">
+    <SubModules count="1">flow_control_loop_pipe_sequential_init_U</SubModules>
+    <Resources FF="35" LUT="40" LogicLUT="40"/>
+    <LocalResources FF="33" LUT="1" LogicLUT="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3_fu_48/flow_control_loop_pipe_sequential_init_U" DEPTH="3" FILE_NAME="lenet5_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3.v" ORIG_REF_NAME="lenet5_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="39" LogicLUT="39"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="4.001" DATAPATH_LOGIC_DELAY="3.103" DATAPATH_NET_DELAY="0.898" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]/D" LOGIC_LEVELS="13" MAX_FANOUT="10" SLACK="5.980" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1.v" LINE_NUMBER="53"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_A_B_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_PREADD_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_MULTIPLIER_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_M_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_4" PRIMITIVE_TYPE="CLB.LUT.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_2" PRIMITIVE_TYPE="CLB.LUT.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op[14]_i_1" PRIMITIVE_TYPE="CLB.LUT.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.001" DATAPATH_LOGIC_DELAY="3.103" DATAPATH_NET_DELAY="0.898" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]/D" LOGIC_LEVELS="13" MAX_FANOUT="10" SLACK="5.980" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1.v" LINE_NUMBER="53"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_A_B_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_PREADD_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_MULTIPLIER_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_M_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_4" PRIMITIVE_TYPE="CLB.LUT.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_2" PRIMITIVE_TYPE="CLB.LUT.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op[14]_i_1" PRIMITIVE_TYPE="CLB.LUT.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U11/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.001" DATAPATH_LOGIC_DELAY="3.103" DATAPATH_NET_DELAY="0.898" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]/D" LOGIC_LEVELS="13" MAX_FANOUT="10" SLACK="5.980" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1.v" LINE_NUMBER="53"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_A_B_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_PREADD_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_MULTIPLIER_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_M_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_4" PRIMITIVE_TYPE="CLB.LUT.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_2" PRIMITIVE_TYPE="CLB.LUT.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op[14]_i_1" PRIMITIVE_TYPE="CLB.LUT.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U12/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.001" DATAPATH_LOGIC_DELAY="3.103" DATAPATH_NET_DELAY="0.898" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]/D" LOGIC_LEVELS="13" MAX_FANOUT="10" SLACK="5.980" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1.v" LINE_NUMBER="53"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_A_B_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_PREADD_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_MULTIPLIER_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_M_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_4" PRIMITIVE_TYPE="CLB.LUT.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_2" PRIMITIVE_TYPE="CLB.LUT.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op[14]_i_1" PRIMITIVE_TYPE="CLB.LUT.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U13/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="4.001" DATAPATH_LOGIC_DELAY="3.103" DATAPATH_NET_DELAY="0.898" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]/D" LOGIC_LEVELS="13" MAX_FANOUT="10" SLACK="5.980" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U10/din0_buf1_reg[7]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="lenet5_fmul_32ns_32ns_32_3_max_dsp_1.v" LINE_NUMBER="53"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_A_B_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_PREADD_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_MULTIPLIER_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_M_DATA_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_ALU_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/i_no_versal_es1_workaround.DSP/DSP_OUTPUT_INST" PRIMITIVE_TYPE="ARITHMETIC.DSP.DSP48E2" FILE_NAME="" LINE_NUMBER=""/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_4" PRIMITIVE_TYPE="CLB.LUT.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/RESULT_REG.NORMAL.mant_op[14]_i_2" PRIMITIVE_TYPE="CLB.LUT.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op[14]_i_1" PRIMITIVE_TYPE="CLB.LUT.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_CONVOLUTION_LAYER_1_fu_24/grp_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_fu_56/fmul_32ns_32ns_32_3_max_dsp_1_U14/lenet5_fmul_32ns_32ns_32_3_max_dsp_1_ip_u/inst/i_synth/MULT.OP/i_non_prim.OP/RESULT_REG.NORMAL.mant_op_reg[14]" PRIMITIVE_TYPE="REGISTER.SDR.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/lenet5_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/lenet5_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/lenet5_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/lenet5_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/lenet5_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/lenet5_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/lenet5_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

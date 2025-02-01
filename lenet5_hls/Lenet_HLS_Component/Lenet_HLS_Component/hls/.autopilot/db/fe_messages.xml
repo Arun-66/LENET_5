@@ -1,0 +1,654 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:10:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:11:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:12:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:18:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:19:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:20:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:27:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:28:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="./../lenet5/hw_layers/image_convolution.h:29:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="lenet5" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=lenet5" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:10:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:11:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:12:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:18:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:19:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:20:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:27:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:28:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-1017" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.h:29:9" msg_body="unknown pragma ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=WBRAM complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biasBRAM complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=OBRAM complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:61:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:83:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mult complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:86:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:103:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=IBRAM complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:127:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=WBRAM complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=WBRAM cyclic factor=C2_N_PE dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biasBRAM complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:130:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=OBRAM cyclic factor=C2_N_PE dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:143:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=C2_N_PE" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:196:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mult complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:228:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:249:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=IBRAM complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:250:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=WBRAM complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:265:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:278:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:287:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:298:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mult complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=acc complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../lenet5/hw_layers/image_convolution.cpp:325:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="CONVOLUTION_LAYER_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:305:6" msg_body="Loop 'D_IN' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="D_IN"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:309:24" msg_body="Loop 'VITIS_LOOP_309_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_309_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:201:8" msg_body="Loop 'DEPTH_IN' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="DEPTH_IN"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:85:7" msg_body="Loop 'D_OUT' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="D_OUT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:244:0" msg_body="Unrolling loop 'D_IN' (../lenet5/hw_layers/image_convolution.cpp:305:6) in function 'CONVOLUTION_LAYER_3' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../lenet5/hw_layers/image_convolution.cpp:305:6" LoopName="D_IN"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:244:0" msg_body="Unrolling loop 'VITIS_LOOP_309_5' (../lenet5/hw_layers/image_convolution.cpp:309:24) in function 'CONVOLUTION_LAYER_3' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../lenet5/hw_layers/image_convolution.cpp:309:24" LoopName="VITIS_LOOP_309_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:116:0" msg_body="Unrolling loop 'DEPTH_OUT' (../lenet5/hw_layers/image_convolution.cpp:192:7) in function 'CONVOLUTION_LAYER_2' partially with a factor of 2">
+        <args Factor="2" LoopLoc="../lenet5/hw_layers/image_convolution.cpp:192:7" LoopName="DEPTH_OUT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:116:0" msg_body="Unrolling loop 'DEPTH_IN' (../lenet5/hw_layers/image_convolution.cpp:201:8) in function 'CONVOLUTION_LAYER_2' completely with a factor of 6">
+        <args Factor="6" LoopLoc="../lenet5/hw_layers/image_convolution.cpp:201:8" LoopName="DEPTH_IN"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:23:0" msg_body="Unrolling loop 'D_OUT' (../lenet5/hw_layers/image_convolution.cpp:85:7) in function 'CONVOLUTION_LAYER_1' completely with a factor of 6">
+        <args Factor="6" LoopLoc="../lenet5/hw_layers/image_convolution.cpp:85:7" LoopName="D_OUT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:23:0" msg_body="Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)'">
+        <args Callee="_tanh(float)" Callee-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 4 Column 0" Caller="CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)" Caller-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 23 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:116:0" msg_body="Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)'">
+        <args Callee="_tanh(float)" Callee-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 4 Column 0" Caller="CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)" Caller-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 116 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:244:0" msg_body="Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)'">
+        <args Callee="_tanh(float)" Callee-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 4 Column 0" Caller="CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)" Caller-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 244 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:322:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::data() const (.35.45.54.65)' into 'fp_struct&lt;float&gt;::to_float() const (.32.42.51.62)'">
+        <args Callee="fp_struct&lt;float&gt;::data() const (.35.45.54.65)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 309 Column 0" Caller="fp_struct&lt;float&gt;::to_float() const (.32.42.51.62)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 322 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:346:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::to_float() const (.32.42.51.62)' into 'fp_struct&lt;float&gt;::to_ieee() const'">
+        <args Callee="fp_struct&lt;float&gt;::to_float() const (.32.42.51.62)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 322 Column 0" Caller="fp_struct&lt;float&gt;::to_ieee() const" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 346 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'float generic_copysign&lt;float&gt;(float, float)'">
+        <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 283 Column 0" Caller="float generic_copysign&lt;float&gt;(float, float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h Line 10 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::to_ieee() const' into 'float generic_copysign&lt;float&gt;(float, float)'">
+        <args Callee="fp_struct&lt;float&gt;::to_ieee() const" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 346 Column 0" Caller="float generic_copysign&lt;float&gt;(float, float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h Line 10 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:12:0" msg_body="Inlining function 'float generic_copysign&lt;float&gt;(float, float)' into 'float generic_fabs&lt;float&gt;(float)'">
+        <args Callee="float generic_copysign&lt;float&gt;(float, float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h Line 10 Column 0" Caller="float generic_fabs&lt;float&gt;(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h Line 12 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h:10:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::to_ieee() const' into 'float generic_nan&lt;float&gt;(char const*)'">
+        <args Callee="fp_struct&lt;float&gt;::to_ieee() const" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 346 Column 0" Caller="float generic_nan&lt;float&gt;(char const*)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h Line 10 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_isnan&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 456 Column 0" Caller="int generic_isnan&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h Line 16 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h:16:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_isinf&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 456 Column 0" Caller="int generic_isinf&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h Line 16 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::data() const (.96.106.116.134)' into 'fp_struct&lt;double&gt;::to_double() const (.93.103.113.131)'">
+        <args Callee="fp_struct&lt;double&gt;::data() const (.96.106.116.134)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 475 Column 0" Caller="fp_struct&lt;double&gt;::to_double() const (.93.103.113.131)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 494 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:509:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::to_double() const (.93.103.113.131)' into 'fp_struct&lt;double&gt;::to_ieee() const'">
+        <args Callee="fp_struct&lt;double&gt;::to_double() const (.93.103.113.131)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 494 Column 0" Caller="fp_struct&lt;double&gt;::to_ieee() const" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 509 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 456 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'int generic_isnan&lt;double&gt;(double)' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="int generic_isnan&lt;double&gt;(double)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h Line 16 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'int generic_isinf&lt;double&gt;(double)' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="int generic_isinf&lt;double&gt;(double)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h Line 16 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::to_ieee() const' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::to_ieee() const" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 509 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::expv() const' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::expv() const" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 485 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0" msg_body="Inlining function 'exp_reduce_::exp_traits&lt;double&gt;::exp_Z1P_m_1(ap_ufixed&lt;51, -8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'double exp_reduce_::exp_generic&lt;double&gt;(double)'">
+        <args Callee="exp_reduce_::exp_traits&lt;double&gt;::exp_Z1P_m_1(ap_ufixed&lt;51, -8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 90 Column 0" Caller="double exp_reduce_::exp_generic&lt;double&gt;(double)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h Line 157 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp:7:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'exp_reduce_::expm1(float)'">
+        <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 283 Column 0" Caller="exp_reduce_::expm1(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp Line 7 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'float explog_based::generic_tanh&lt;float&gt;(float)'">
+        <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 283 Column 0" Caller="float explog_based::generic_tanh&lt;float&gt;(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h Line 28 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0" msg_body="Inlining function 'float generic_fabs&lt;float&gt;(float)' into 'float explog_based::generic_tanh&lt;float&gt;(float)'">
+        <args Callee="float generic_fabs&lt;float&gt;(float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h Line 12 Column 0" Caller="float explog_based::generic_tanh&lt;float&gt;(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h Line 28 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0" msg_body="Inlining function 'float generic_nan&lt;float&gt;(char const*)' into 'float explog_based::generic_tanh&lt;float&gt;(float)'">
+        <args Callee="float generic_nan&lt;float&gt;(char const*)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h Line 10 Column 0" Caller="float explog_based::generic_tanh&lt;float&gt;(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h Line 28 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0" msg_body="Inlining function 'exp_reduce_::expm1(float)' into 'float explog_based::generic_tanh&lt;float&gt;(float)'">
+        <args Callee="exp_reduce_::expm1(float)" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp Line 7 Column 0" Caller="float explog_based::generic_tanh&lt;float&gt;(float)" Caller-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h Line 28 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath:502:0" msg_body="Inlining function 'tanhf' into 'std::tanh(float)'">
+        <args Callee="tanhf" Callee-DebugLoc="File /wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c/tanhfloat.cpp Line 7 Column 0" Caller="std::tanh(float)" Caller-DebugLoc="File /work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath Line 502 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Lenet.cpp:5:0" msg_body="Inlining function 'POOLING_LAYER_1(float*, float*, float*, float*)' into 'lenet5(float const*, float*)'">
+        <args Callee="POOLING_LAYER_1(float*, float*, float*, float*)" Callee-DebugLoc="File ../lenet5/hw_layers/image_pool.cpp Line 14 Column 0" Caller="lenet5(float const*, float*)" Caller-DebugLoc="File Lenet.cpp Line 5 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Lenet.cpp:5:0" msg_body="Inlining function 'POOLING_LAYER_2(float*, float*, float*, float*)' into 'lenet5(float const*, float*)'">
+        <args Callee="POOLING_LAYER_2(float*, float*, float*, float*)" Callee-DebugLoc="File ../lenet5/hw_layers/image_pool.cpp Line 45 Column 0" Caller="lenet5(float const*, float*)" Caller-DebugLoc="File Lenet.cpp Line 5 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Lenet.cpp:5:0" msg_body="Inlining function 'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)' into 'lenet5(float const*, float*)'">
+        <args Callee="FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)" Callee-DebugLoc="File ./../lenet5/hw_layers/image_fullyconnected.h Line 7 Column 0" Caller="lenet5(float const*, float*)" Caller-DebugLoc="File Lenet.cpp Line 5 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Lenet.cpp:5:0" msg_body="Inlining function 'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)' into 'lenet5(float const*, float*)'">
+        <args Callee="FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)" Callee-DebugLoc="File ./../lenet5/hw_layers/image_fullyconnected.h Line 20 Column 0" Caller="lenet5(float const*, float*)" Caller-DebugLoc="File Lenet.cpp Line 5 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:26:8" msg_body="Applying array_partition to 'WBRAM': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="WBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:27:8" msg_body="Applying array_partition to 'biasBRAM': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="biasBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="OBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="IBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:123:8" msg_body="Applying array_partition to 'WBRAM': Cyclic partitioning with factor 2 on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Factor="2" Mode="islist Cyclic Complete" UOName="WBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:124:8" msg_body="Applying array_partition to 'biasBRAM': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="biasBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Applying array_partition to 'OBRAM': Cyclic partitioning with factor 2 on dimension 2.">
+        <args Dim="2" Factor="2" Mode="Cyclic" UOName="OBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="IBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:248:8" msg_body="Applying array_partition to 'WBRAM': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="WBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:25:8" msg_body="Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="IBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="OBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="IBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="OBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Automatically partitioning array 'IBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="IBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:254:8" msg_body="Automatically partitioning array 'OBRAM' dimension 1 completely based on constant index.">
+        <args Dim="1" Value="OBRAM"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="./Weights_Pool1.h:1:0" msg_body="array_partition dim=1 type=cyclic factor=2 variable=Wpool1 1 lenet5 ./Weights_Pool1.h:1:0 Wpool1">
+        <args PragmaFunction="lenet5" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=2 variable=Wpool1" PragmaType="array_partition" VarName="Wpool1" varLoc="./Weights_Pool1.h:1:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="./Weights_Pool1.h:1:0" msg_body="Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'Wpool1' due to pipeline pragma">
+        <args Dim="1" Factor="2" Mode="cyclic" Name="Wpool1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="./Weights_Pool2.h:1:0" msg_body="array_partition dim=1 type=cyclic factor=2 variable=Wpool2 1 lenet5 ./Weights_Pool2.h:1:0 Wpool2">
+        <args PragmaFunction="lenet5" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=2 variable=Wpool2" PragmaType="array_partition" VarName="Wpool2" varLoc="./Weights_Pool2.h:1:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="./Weights_Pool2.h:1:0" msg_body="Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'Wpool2' due to pipeline pragma">
+        <args Dim="1" Factor="2" Mode="cyclic" Name="Wpool2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/../common.h:58:0" msg_body="array_partition dim=1 type=cyclic factor=7 variable=_ZL3tbl 1 lenet5 ../lenet5/hw_layers/../common.h:58:0 ../lenet5/hw_layers/image_convolution.cpp:196:9tbl">
+        <args PragmaFunction="lenet5" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=7 variable=_ZL3tbl" PragmaSrcLoc="../lenet5/hw_layers/image_convolution.cpp:196:9" PragmaSrcLoc-DebugLoc="File ../lenet5/hw_layers/image_convolution.cpp Line 196 Column 9" PragmaType="array_partition" VarName="tbl" varLoc="../lenet5/hw_layers/../common.h:58:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:196:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array 'tbl' due to pipeline pragma">
+        <args Dim="1" Factor="7" Mode="cyclic" Name="tbl" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="Lenet.cpp:9:19" msg_body="array_partition dim=1 type=cyclic factor=5 variable=hconv1 1 lenet5 Lenet.cpp:9:19 hconv1">
+        <args PragmaFunction="lenet5" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=hconv1" PragmaType="array_partition" VarName="hconv1" varLoc="Lenet.cpp:9:19"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="Lenet.cpp:9:19" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'hconv1' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="hconv1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:25:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:25:8 IBRAM">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM" PragmaType="array_partition" VarName="IBRAM" varLoc="../lenet5/hw_layers/image_convolution.cpp:25:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:25:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_0 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_0">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_0" PragmaType="array_partition" VarName="OBRAM_0" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_0' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_1 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_1">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_1" PragmaType="array_partition" VarName="OBRAM_1" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_1' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_2 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_2">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_2" PragmaType="array_partition" VarName="OBRAM_2" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_2' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_3 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_3">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_3" PragmaType="array_partition" VarName="OBRAM_3" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_3' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_3" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_4 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_4">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_4" PragmaType="array_partition" VarName="OBRAM_4" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_4' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_4" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_5 1 CONVOLUTION_LAYER_1 ../lenet5/hw_layers/image_convolution.cpp:28:8 OBRAM_5">
+        <args PragmaFunction="CONVOLUTION_LAYER_1" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_5" PragmaType="array_partition" VarName="OBRAM_5" varLoc="../lenet5/hw_layers/image_convolution.cpp:28:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_5' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_5" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="Lenet.cpp:33:19" msg_body="array_partition dim=1 type=cyclic factor=2 variable=hconv2 1 lenet5 Lenet.cpp:33:19 hconv2">
+        <args PragmaFunction="lenet5" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=2 variable=hconv2" PragmaType="array_partition" VarName="hconv2" varLoc="Lenet.cpp:33:19"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="Lenet.cpp:33:19" msg_body="Inferring pragma 'array_partition type=cyclic factor=2 dim=1' for array 'hconv2' due to pipeline pragma">
+        <args Dim="1" Factor="2" Mode="cyclic" Name="hconv2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_0 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_0">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_0" PragmaType="array_partition" VarName="IBRAM_0" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_0' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_1 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_1">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_1" PragmaType="array_partition" VarName="IBRAM_1" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_1' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_2 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_2">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_2" PragmaType="array_partition" VarName="IBRAM_2" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_2' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_3 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_3">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_3" PragmaType="array_partition" VarName="IBRAM_3" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_3' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_3" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_4 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_4">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_4" PragmaType="array_partition" VarName="IBRAM_4" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_4' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_4" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_5 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:122:8 IBRAM_5">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_5" PragmaType="array_partition" VarName="IBRAM_5" varLoc="../lenet5/hw_layers/image_convolution.cpp:122:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_5' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_5" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_0 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:125:8 OBRAM_0">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_0" PragmaType="array_partition" VarName="OBRAM_0" varLoc="../lenet5/hw_layers/image_convolution.cpp:125:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_0' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM_1 1 CONVOLUTION_LAYER_2 ../lenet5/hw_layers/image_convolution.cpp:125:8 OBRAM_1">
+        <args PragmaFunction="CONVOLUTION_LAYER_2" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM_1" PragmaType="array_partition" VarName="OBRAM_1" varLoc="../lenet5/hw_layers/image_convolution.cpp:125:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM_1' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_0 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_0">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_0" PragmaType="array_partition" VarName="IBRAM_0" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_0' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_0" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_1 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_1">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_1" PragmaType="array_partition" VarName="IBRAM_1" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_1' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_1" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_10 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_10">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_10" PragmaType="array_partition" VarName="IBRAM_10" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_10' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_10" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_11 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_11">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_11" PragmaType="array_partition" VarName="IBRAM_11" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_11' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_11" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_12 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_12">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_12" PragmaType="array_partition" VarName="IBRAM_12" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_12' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_12" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_13 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_13">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_13" PragmaType="array_partition" VarName="IBRAM_13" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_13' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_13" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_14 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_14">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_14" PragmaType="array_partition" VarName="IBRAM_14" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_14' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_14" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_15 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_15">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_15" PragmaType="array_partition" VarName="IBRAM_15" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_15' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_15" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_2 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_2">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_2" PragmaType="array_partition" VarName="IBRAM_2" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_2' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_2" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_3 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_3">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_3" PragmaType="array_partition" VarName="IBRAM_3" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_3' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_3" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_4 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_4">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_4" PragmaType="array_partition" VarName="IBRAM_4" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_4' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_4" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_5 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_5">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_5" PragmaType="array_partition" VarName="IBRAM_5" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_5' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_5" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_6 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_6">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_6" PragmaType="array_partition" VarName="IBRAM_6" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_6' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_6" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_7 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_7">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_7" PragmaType="array_partition" VarName="IBRAM_7" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_7' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_7" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_8 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_8">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_8" PragmaType="array_partition" VarName="IBRAM_8" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_8' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_8" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="array_partition dim=1 type=complete  variable=IBRAM_9 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:247:8 IBRAM_9">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=IBRAM_9" PragmaType="array_partition" VarName="IBRAM_9" varLoc="../lenet5/hw_layers/image_convolution.cpp:247:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'IBRAM_9' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="IBRAM_9" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:254:8" msg_body="array_partition dim=1 type=complete  variable=OBRAM 1 CONVOLUTION_LAYER_3 ../lenet5/hw_layers/image_convolution.cpp:254:8 OBRAM">
+        <args PragmaFunction="CONVOLUTION_LAYER_3" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=OBRAM" PragmaType="array_partition" VarName="OBRAM" varLoc="../lenet5/hw_layers/image_convolution.cpp:254:8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:254:8" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'OBRAM' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="OBRAM" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/../common.h:58:0" msg_body="Applying array_partition to '_ZL3tbl': Cyclic partitioning with factor 7 on dimension 1.">
+        <args Dim="1" Factor="7" Mode="Cyclic" UOName="_ZL3tbl"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="./Weights_Pool2.h:1:0" msg_body="Applying array_partition to 'Wpool2': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="Wpool2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="./Weights_Pool1.h:1:0" msg_body="Applying array_partition to 'Wpool1': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="Wpool1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:25:8" msg_body="Applying array_partition to 'IBRAM': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_0': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_2': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_4': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:28:8" msg_body="Applying array_partition to 'OBRAM_5': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_0': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_2': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_4': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:122:8" msg_body="Applying array_partition to 'IBRAM_5': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Applying array_partition to 'OBRAM_0': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:125:8" msg_body="Applying array_partition to 'OBRAM_1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_0': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_2': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_4': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_5': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_6': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_7': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_8': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_9': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_10': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_11': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_12': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_13': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_14': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:247:8" msg_body="Applying array_partition to 'IBRAM_15': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IBRAM_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../lenet5/hw_layers/image_convolution.cpp:254:8" msg_body="Applying array_partition to 'OBRAM': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="OBRAM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="Lenet.cpp:9:19" msg_body="Applying array_partition to 'hconv1': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="hconv1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="Lenet.cpp:33:19" msg_body="Applying array_partition to 'hconv2': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="hconv2"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

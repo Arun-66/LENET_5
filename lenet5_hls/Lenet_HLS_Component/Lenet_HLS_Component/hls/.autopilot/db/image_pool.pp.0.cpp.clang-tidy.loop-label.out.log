@@ -1,0 +1,40 @@
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8003:2: warning: Added loop label VITIS_LOOP_17_1:   [xilinx-label-all-loops]
+ for (batch_cnt = 0; batch_cnt < 1; batch_cnt++)
+ ^~~
+ VITIS_LOOP_17_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8003:2: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8005:3: warning: Added loop label VITIS_LOOP_19_2:   [xilinx-label-all-loops]
+  for (depth = 0; depth < 6; depth++)
+  ^~~
+  VITIS_LOOP_19_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8005:3: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8007:4: warning: Added loop label VITIS_LOOP_21_3:   [xilinx-label-all-loops]
+   for (row = 0; row < 14; row++)
+   ^~~
+   VITIS_LOOP_21_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8007:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8009:5: warning: Added loop label VITIS_LOOP_23_4:   [xilinx-label-all-loops]
+    for (col = 0; col < 14; col++)
+    ^~~
+    VITIS_LOOP_23_4: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8009:5: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8034:2: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+ for (batch_cnt = 0; batch_cnt < 1; batch_cnt++)
+ ^~~
+ VITIS_LOOP_48_1: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8034:2: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8036:3: warning: Added loop label VITIS_LOOP_50_2:   [xilinx-label-all-loops]
+  for (depth = 0; depth < 16; depth++)
+  ^~~
+  VITIS_LOOP_50_2: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8036:3: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8038:4: warning: Added loop label VITIS_LOOP_52_3:   [xilinx-label-all-loops]
+   for (row = 0; row < 5; row++)
+   ^~~
+   VITIS_LOOP_52_3: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8038:4: note: FIX-IT applied suggested code changes
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8040:5: warning: Added loop label VITIS_LOOP_54_4:   [xilinx-label-all-loops]
+    for (col = 0; col < 5; col++)
+    ^~~
+    VITIS_LOOP_54_4: 
+/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/.autopilot/db/image_pool.pp.0.cpp:8040:5: note: FIX-IT applied suggested code changes

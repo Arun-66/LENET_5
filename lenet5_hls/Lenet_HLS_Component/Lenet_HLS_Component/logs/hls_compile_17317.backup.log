@@ -1,0 +1,113 @@
+INFO: [HLS 200-2005] Using work_dir /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' see [hls] from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/activation.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_convolution.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_fullyconnected.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(13)
+WARNING: [HLS 200-40] Cannot find design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.h'
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/classify_lib.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/common.h' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/common.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/lenet5/hw_layers/image_pool.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Lenet.cpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=lenet5.hpp' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/lenet5.hpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=lenet5' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu7ev-ffvc1156-2-e' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu7ev-ffvc1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/hls_config.cfg(5)
+WARNING: [HLS 200-40] Cannot find source file ../lenet5/hw_layers/image_pool.h; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 5.62 seconds. CPU system time: 0.76 seconds. Elapsed time: 6.41 seconds; current allocated memory: 326.809 MB.
+INFO: [HLS 200-10] Analyzing design file 'Lenet.cpp' ... 
+WARNING: [HLS 207-5249] inline function 'POOLING_LAYER_1' is not defined (./../lenet5/hw_layers/image_pool.hpp:15:13)
+INFO: [HLS 207-4562] used here (Lenet.cpp:19:4)
+WARNING: [HLS 207-5249] inline function 'POOLING_LAYER_2' is not defined (./../lenet5/hw_layers/image_pool.hpp:47:13)
+INFO: [HLS 207-4562] used here (Lenet.cpp:36:4)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:10:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:11:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:12:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:18:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:19:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:20:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:27:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:28:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (./../lenet5/hw_layers/image_convolution.h:29:9)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/image_pool.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'scale_factor' (../lenet5/hw_layers/image_pool.cpp:46:10)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/image_convolution.cpp' ... 
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:10:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:11:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:12:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:18:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:19:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:20:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:27:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:28:9)
+WARNING: [HLS 207-1017] unknown pragma ignored (../lenet5/hw_layers/image_convolution.h:29:9)
+INFO: [HLS 200-10] Analyzing design file '../lenet5/hw_layers/activation.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 11.52 seconds. CPU system time: 3.43 seconds. Elapsed time: 14.97 seconds; current allocated memory: 329.637 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 29,620 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3,145 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,331 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,201 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 684 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /primary/Lenet_5/lenet5_hls/Lenet_HLS_Component/Lenet_HLS_Component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-291] Loop 'D_IN' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:305:6)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_309_5' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:309:24)
+INFO: [HLS 214-291] Loop 'DEPTH_IN' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:201:8)
+INFO: [HLS 214-291] Loop 'D_OUT' is marked as complete unroll implied by the pipeline pragma (../lenet5/hw_layers/image_convolution.cpp:85:7)
+INFO: [HLS 214-186] Unrolling loop 'D_IN' (../lenet5/hw_layers/image_convolution.cpp:305:6) in function 'CONVOLUTION_LAYER_3' completely with a factor of 16 (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_309_5' (../lenet5/hw_layers/image_convolution.cpp:309:24) in function 'CONVOLUTION_LAYER_3' completely with a factor of 4 (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-188] Unrolling loop 'DEPTH_OUT' (../lenet5/hw_layers/image_convolution.cpp:192:7) in function 'CONVOLUTION_LAYER_2' partially with a factor of 2 (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-186] Unrolling loop 'DEPTH_IN' (../lenet5/hw_layers/image_convolution.cpp:201:8) in function 'CONVOLUTION_LAYER_2' completely with a factor of 6 (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-186] Unrolling loop 'D_OUT' (../lenet5/hw_layers/image_convolution.cpp:85:7) in function 'CONVOLUTION_LAYER_1' completely with a factor of 6 (../lenet5/hw_layers/image_convolution.cpp:23:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_1(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:23:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_2(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:116:0)
+INFO: [HLS 214-178] Inlining function '_tanh(float)' into 'CONVOLUTION_LAYER_3(float const*, float const*, float const*, float*, int)' (../lenet5/hw_layers/image_convolution.cpp:244:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::data() const (.35.45.54.65)' into 'fp_struct<float>::to_float() const (.32.42.51.62)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:322:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_float() const (.32.42.51.62)' into 'fp_struct<float>::to_ieee() const' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:346:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float generic_copysign<float>(float, float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float generic_copysign<float>(float, float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'float generic_copysign<float>(float, float)' into 'float generic_fabs<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float generic_nan<float>(char const*)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_nan.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isnan<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_isinf<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const (.96.106.116.134)' into 'fp_struct<double>::to_double() const (.93.103.113.131)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_double() const (.93.103.113.131)' into 'fp_struct<double>::to_ieee() const' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:509:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isnan<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isinf<double>(double)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::exp_traits<double>::exp_Z1P_m_1(ap_ufixed<51, -8, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'double exp_reduce_::exp_generic<double>(double)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_exp_.h:157:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'exp_reduce_::expm1(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/common/hls_exp_float.cpp:7:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'float generic_fabs<float>(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'float generic_nan<float>(char const*)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'exp_reduce_::expm1(float)' into 'float explog_based::generic_tanh<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_tanh.h:28:0)
+INFO: [HLS 214-178] Inlining function 'tanhf' into 'std::tanh(float)' (/work/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath:502:0)
+INFO: [HLS 214-178] Inlining function 'FULLY_CONNECTED_LAYER_1(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+INFO: [HLS 214-178] Inlining function 'FULLY_CONNECTED_LAYER_2(float*, float*, float*, float*)' into 'lenet5(float const*, float const*, float const*, float*)' (Lenet.cpp:5:0)
+ERROR: [HLS 214-194] in function 'lenet5(float const*, float const*, float const*, float*)': Undefined function POOLING_LAYER_1 (Lenet.cpp:19:4)
+ERROR: [HLS 214-194] in function 'lenet5(float const*, float const*, float const*, float*)': Undefined function POOLING_LAYER_2 (Lenet.cpp:36:4)
+ERROR: [HLS 214-135] Syn check fail!
+ERROR: [HLS 200-1715] Encountered problem during source synthesis
+ERROR: Pre-synthesis failed.
+INFO: [HLS 200-112] Total CPU user time: 23.6 seconds. Total CPU system time: 5.51 seconds. Total elapsed time: 32.85 seconds; peak allocated memory: 331.379 MB.

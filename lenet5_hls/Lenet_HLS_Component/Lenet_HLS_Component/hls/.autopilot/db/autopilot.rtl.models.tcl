@@ -1,0 +1,32 @@
+set SynModuleInfo {
+  {SRCNAME CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3 MODELNAME CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3 RTLNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_copy_input_2_copy_input_3
+    SUBMODULES {
+      {MODELNAME lenet5_flow_control_loop_pipe_sequential_init RTLNAME lenet5_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME lenet5_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL MODELNAME CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL RTLNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL
+    SUBMODULES {
+      {MODELNAME lenet5_fadd_32ns_32ns_32_4_full_dsp_1 RTLNAME lenet5_fadd_32ns_32ns_32_4_full_dsp_1 BINDTYPE op TYPE fadd IMPL fulldsp LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_fmul_32ns_32ns_32_3_max_dsp_1 RTLNAME lenet5_fmul_32ns_32ns_32_3_max_dsp_1 BINDTYPE op TYPE fmul IMPL maxdsp LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_WBRAM_5_RAM_AUTO_1R1W RTLNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_ROW_K_COL_K_ROW_COL_WBRAM_5_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3 MODELNAME CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3 RTLNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3
+    SUBMODULES {
+      {MODELNAME lenet5_fdiv_32ns_32ns_32_9_no_dsp_1 RTLNAME lenet5_fdiv_32ns_32ns_32_9_no_dsp_1 BINDTYPE op TYPE fdiv IMPL fabric LATENCY 8 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_fexp_32ns_32ns_32_8_full_dsp_1 RTLNAME lenet5_fexp_32ns_32ns_32_8_full_dsp_1 BINDTYPE op TYPE fexp IMPL fulldsp LATENCY 7 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_sparsemux_13_3_32_1_1 RTLNAME lenet5_sparsemux_13_3_32_1_1 BINDTYPE op TYPE sparsemux IMPL compactencoding_dontcare}
+      {MODELNAME lenet5_urem_10ns_4ns_3_14_1 RTLNAME lenet5_urem_10ns_4ns_3_14_1 BINDTYPE op TYPE urem IMPL auto LATENCY 13 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_mul_13ns_15ns_27_1_1 RTLNAME lenet5_mul_13ns_15ns_27_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_mac_muladd_10ns_3ns_10ns_13_4_1 RTLNAME lenet5_mac_muladd_10ns_3ns_10ns_13_4_1 BINDTYPE op TYPE all IMPL dsp_slice LATENCY 3}
+      {MODELNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_local_lbkb RTLNAME lenet5_CONVOLUTION_LAYER_1_Pipeline_VITIS_LOOP_101_2_VITIS_LOOP_102_3_hconv1_local_lbkb BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME CONVOLUTION_LAYER_1 MODELNAME CONVOLUTION_LAYER_1 RTLNAME lenet5_CONVOLUTION_LAYER_1
+    SUBMODULES {
+      {MODELNAME lenet5_CONVOLUTION_LAYER_1_IBRAM_RAM_AUTO_1R1W RTLNAME lenet5_CONVOLUTION_LAYER_1_IBRAM_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W RTLNAME lenet5_CONVOLUTION_LAYER_1_OBRAM_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME lenet5 MODELNAME lenet5 RTLNAME lenet5 IS_TOP 1}
+}

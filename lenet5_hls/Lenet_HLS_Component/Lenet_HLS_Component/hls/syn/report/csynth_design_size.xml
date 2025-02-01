@@ -1,0 +1,61 @@
+<design_size title="Design Size Report">
+    <item name="Total Instructions per Compilation Phase">
+        <table>
+            <keys size="4">Phase, Step, Instructions, Description</keys>
+            <column name="Compile/Link">, 29844, After all functions are compiled and linked into a single design</column>
+            <column name="">, , </column>
+            <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
+            <column name="">(1) unroll,  3364, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  1476, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  1321, user inline pragmas are applied</column>
+            <column name="">(4) simplification,    800, simplification of applied user inline pragmas</column>
+            <column name="">, , </column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,  1813, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,    983, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,    983, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,    983, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,    983, array access pattern optmizations</column>
+            <column name="">, , </column>
+            <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
+            <column name="">(1) loop simplification,    983, loop and instruction simplification</column>
+            <column name="">(2) parallelization,    983, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,  1537, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,  1343, simplification of design after performance transformations</column>
+            <column name="">, , </column>
+            <column name="HW Transforms">, , After hardware transfomations</column>
+            <column name="">(1) lowering,  1432, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,  1018, high level synthesis optimizations</column>
+        </table>
+    </item>
+    <item name="Instructions per Function for each Compilation Phase">
+        <hiertable>
+            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
+            <rows>
+                <row id="0" col0="lenet5" col1="Lenet.cpp:5" col2="29844" col3="800" col4="983" col5="1343" col6="1018">
+                    <row id="8" col0="CONVOLUTION_LAYER_1" col1="image_convolution.cpp:18" col2="289" col3="154" col4="167" col5="211" col6="239">
+                        <row id="9" col0="_tanh" col1="image_convolution.cpp:4" col2="6" col3="" col4="" col5="" col6=""/>
+                    </row>
+                    <row id="23" col0="POOLING_LAYER_1" col1="image_pool.cpp:10" col2="124" col3="" col4="" col5="" col6=""/>
+                    <row id="18" col0="CONVOLUTION_LAYER_2" col1="image_convolution.cpp:111" col2="343" col3="278" col4="346" col5="543" col6="576">
+                        <row id="9" col0="_tanh" col1="image_convolution.cpp:4" col2="6" col3="" col4="" col5="" col6=""/>
+                    </row>
+                    <row id="12" col0="POOLING_LAYER_2" col1="image_pool.cpp:41" col2="124" col3="" col4="" col5="" col6=""/>
+                    <row id="1" col0="CONVOLUTION_LAYER_3" col1="image_convolution.cpp:239" col2="317" col3="219" col4="326" col5="360" col6="">
+                        <row id="9" col0="_tanh" col1="image_convolution.cpp:4" col2="6" col3="" col4="" col5="" col6=""/>
+                    </row>
+                    <row id="31" col0="FULLY_CONNECTED_LAYER_1" col1="image_fullyconnected.h:6" col2="14290" col3="" col4="" col5="" col6=""/>
+                    <row id="30" col0="FULLY_CONNECTED_LAYER_2" col1="image_fullyconnected.h:20" col2="14290" col3="" col4="" col5="" col6=""/>
+                </row>
+            </rows>
+            <notes/>
+        </hiertable>
+    </item>
+    <item name="Design Size Message Settings">
+        <table>
+            <keys size="3">Message Setting, Value, Description</keys>
+            <column name="config_compile -design_size_maximum_warning">100000, Show a warning when total design instructions exceeds this value</column>
+        </table>
+    </item>
+</design_size>
+

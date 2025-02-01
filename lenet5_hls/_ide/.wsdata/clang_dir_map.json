@@ -1,0 +1,22 @@
+{
+  "workspaceRoot": "/primary/Lenet_5/lenet5_hls",
+  "mapping": {
+    "Lenet_HLS_Component/Lenet.cpp": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_convolution.cpp": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_convolution.h": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/Weights_Pool1.h": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/Weights_Pool2.h": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_pool.h": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/lenet5.hpp": "Lenet_HLS_Component",
+    "lenet5/classify_lib.h": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/Wfc2.h": "Lenet_HLS_Component",
+    "lenet5/common.h": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_fullyconnected.h": "Lenet_HLS_Component",
+    "lenet5/hw_layers/activation.h": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/Weights_Conv1.h": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_pool.cpp": "Lenet_HLS_Component",
+    "Lenet_HLS_Component/Wconv2.h": "Lenet_HLS_Component",
+    "lenet5/hw_layers/activation.cpp": "Lenet_HLS_Component",
+    "lenet5/hw_layers/image_pool.hpp": "Lenet_HLS_Component"
+  }
+}
